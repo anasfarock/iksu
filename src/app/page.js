@@ -190,9 +190,39 @@ const IKSUWebsite = () => {
               transform: translateY(0);
             }
           }
+
+          /* Ensure desktop nav is visible by default */
+          .nav-desktop {
+            display: flex;
+            gap: 32px;
+          }
+
+          /* Right section (Get a Quote + Menu icon) */
+          .header-right {
+            display: flex;
+            gap: 16px;
+            align-items: center;
+          }
+
+          /* Menu icon hidden on desktop */
+          .mobile-menu-icon {
+            display: none;
+          }
+
+          /* Responsive adjustments */
+          @media (max-width: 768px) {
+            .nav-desktop {
+              display: none;
+            }
+
+            .mobile-menu-icon {
+              display: block;
+            }
+          }
         `}</style>
 
         {/* Header */}
+        {/* Responsive Header */}
         <header
           style={{
             padding: "24px 16px",
@@ -213,13 +243,13 @@ const IKSUWebsite = () => {
               alignItems: "center",
             }}
           >
+            {/* Logo */}
             <h1 style={{ fontSize: "32px", fontWeight: "bold", margin: 0 }}>
               IKSU
             </h1>
-            <nav
-              style={{ display: "none" }}
-              className="md:flex items-center space-x-8"
-            >
+
+            {/* Desktop Navigation */}
+            <nav className="nav-desktop">
               <a className="nav-link" href="#about">
                 About Us
               </a>
@@ -233,26 +263,75 @@ const IKSUWebsite = () => {
                 Contact
               </a>
             </nav>
-            <a
-              className="btn-primary"
-              href="#contact"
-              style={{ display: "none" }}
-            >
-              Get a Quote
-            </a>
-            <button
-              style={{
-                background: "transparent",
-                border: "none",
-                color: "#ffffff",
-                cursor: "pointer",
-              }}
-              onClick={() => setIsMenuOpen(!isMenuOpen)}
-            >
-              <span className="material-icons">menu</span>
-            </button>
+
+            {/* CTA + Mobile Icon */}
+            <div className="header-right">
+              <a className="btn-primary nav-desktop" href="#contact">
+                Get a Quote
+              </a>
+              <button
+                className="mobile-menu-icon"
+                onClick={() => setIsMenuOpen(!isMenuOpen)}
+                style={{
+                  background: "transparent",
+                  border: "none",
+                  color: "#ffffff",
+                  cursor: "pointer",
+                }}
+              >
+                <span className="material-icons">menu</span>
+              </button>
+            </div>
           </div>
         </header>
+
+        {/* Mobile Dropdown */}
+        {isMenuOpen && (
+          <div
+            className="mobile-menu"
+            style={{
+              position: "absolute",
+              top: "80px",
+              left: 0,
+              right: 0,
+              backgroundColor: "#1f1f1f",
+              padding: "16px 24px",
+              zIndex: 29,
+              display: "flex",
+              flexDirection: "column",
+              gap: "16px",
+            }}
+          >
+            <a
+              className="nav-link"
+              href="#about"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              About Us
+            </a>
+            <a
+              className="nav-link"
+              href="#services"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Services
+            </a>
+            <a
+              className="nav-link"
+              href="#projects"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Projects
+            </a>
+            <a
+              className="nav-link"
+              href="#contact"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Contact
+            </a>
+          </div>
+        )}
 
         <main>
           {/* Hero Section */}

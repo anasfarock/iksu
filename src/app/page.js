@@ -571,7 +571,7 @@ const IKSUWebsite = () => {
                       marginBottom: "8px",
                     }}
                   >
-                    Defense Supplies
+                    Perimeter Security
                   </h3>
                   <p style={{ color: "#9ca3af" }}>
                     Supply and installation of HESCO bags, chain link fencing,
@@ -699,6 +699,31 @@ const IKSUWebsite = () => {
                     commercial goods.
                   </p>
                 </div>
+                <div className="service-card">
+                  <span
+                    className="material-icons"
+                    style={{
+                      fontSize: "80px",
+                      color: "#f59e0b",
+                      marginBottom: "16px",
+                    }}
+                  >
+                    event
+                  </span>
+                  <h3
+                    style={{
+                      fontSize: "24px",
+                      fontWeight: "600",
+                      marginBottom: "8px",
+                    }}
+                  >
+                    Event Management
+                  </h3>
+                  <p style={{ color: "#9ca3af" }}>
+                    Global trade support for construction materials and
+                    commercial goods.
+                  </p>
+                </div>
               </div>
             </div>
           </section>
@@ -758,7 +783,7 @@ const IKSUWebsite = () => {
                     marginBottom: "8px",
                   }}
                 >
-                  Contact Kashif Jamal
+                  Contact Us
                 </h3>
                 <p
                   style={{
@@ -820,8 +845,7 @@ const IKSUWebsite = () => {
             }}
           >
             <p>
-              © 2025 IKSU Consultant and Construction Company. All Rights
-              Reserved.
+              © 2025 IKSU Consulting Services (Pvt) Ltd. All Rights Reserved.
             </p>
           </div>
         </footer>

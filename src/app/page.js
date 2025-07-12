@@ -9,10 +9,6 @@ const IKSUWebsite = () => {
     <>
       {/* Import Google Fonts and Material Icons */}
       <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-        rel="stylesheet"
-      />
-      <link
         href="https://fonts.googleapis.com/icon?family=Material+Icons"
         rel="stylesheet"
       />
@@ -731,7 +727,7 @@ const IKSUWebsite = () => {
                 }}
                 className="section-title"
               >
-                Let's Build Together
+                Let&apos;s Build Together
               </h2>
               <p
                 style={{
@@ -742,8 +738,8 @@ const IKSUWebsite = () => {
                   margin: "0 auto 32px auto",
                 }}
               >
-                If you have any upcoming tenders or projects, we'd be happy to
-                explore how IKSU can add value and deliver results.
+                If you have any upcoming tenders or projects, we&apos;d be happy
+                to explore how IKSU can add value and deliver results.
               </p>
               <div
                 style={{

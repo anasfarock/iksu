@@ -846,6 +846,17 @@ const IKSUWebsite = () => {
           >
             <p>
               © 2025 IKSU Consulting Services (Pvt) Ltd. All Rights Reserved.
+              <br />
+              Powered by
+              <a
+                className="nav-link"
+                href="https://anasfarooq.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#c9c4c4ff", marginLeft: "4px", opacity: 0.6 }}
+              >
+                Anas Farooq
+              </a>
             </p>
           </div>
         </footer>

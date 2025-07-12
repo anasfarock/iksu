@@ -219,6 +219,21 @@ const IKSUWebsite = () => {
               display: block;
             }
           }
+
+          .hero-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            margin-bottom: 32px;
+          }
+
+          @media (min-width: 768px) {
+            .hero-buttons {
+              flex-direction: row;
+              justify-content: center;
+            }
+          }
         `}</style>
 
         {/* Header */}
@@ -256,9 +271,9 @@ const IKSUWebsite = () => {
               <a className="nav-link" href="#services">
                 Services
               </a>
-              <a className="nav-link" href="#projects">
+              {/* <a className="nav-link" href="#projects">
                 Projects
-              </a>
+              </a> */}
               <a className="nav-link" href="#contact">
                 Contact
               </a>
@@ -316,13 +331,13 @@ const IKSUWebsite = () => {
             >
               Services
             </a>
-            <a
+            {/* <a
               className="nav-link"
               href="#projects"
               onClick={() => setIsMenuOpen(false)}
             >
               Projects
-            </a>
+            </a> */}
             <a
               className="nav-link"
               href="#contact"
@@ -387,12 +402,14 @@ const IKSUWebsite = () => {
                   marginBottom: "32px",
                 }}
               >
-                <a className="btn-primary" href="#contact">
-                  Contact Us
-                </a>
-                <a className="btn-secondary" href="#services">
-                  Our Services
-                </a>
+                <div className="hero-buttons">
+                  <a className="btn-primary" href="#contact">
+                    Contact Us
+                  </a>
+                  <a className="btn-secondary" href="#services">
+                    Our Services
+                  </a>
+                </div>
               </div>
               <p style={{ color: "#d1d5db", fontSize: "16px" }}>
                 All Our Projects Are Curated By Experts.
@@ -789,7 +806,7 @@ const IKSUWebsite = () => {
             }}
           >
             <p>
-              © 2024 IKSU Consultant and Construction Company. All Rights
+              © 2025 IKSU Consultant and Construction Company. All Rights
               Reserved.
             </p>
           </div>

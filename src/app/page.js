@@ -1,6 +1,9 @@
+// <!-- Developed by Anas Farooq | www.anasfarooq.com -->
+
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 
 const IKSUWebsite = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -503,31 +506,34 @@ const IKSUWebsite = () => {
                   gap: "32px",
                 }}
               >
-                <div className="service-card">
-                  <span
-                    className="material-icons"
-                    style={{
-                      fontSize: "80px",
-                      color: "#f59e0b",
-                      marginBottom: "16px",
-                    }}
-                  >
-                    apartment
-                  </span>
-                  <h3
-                    style={{
-                      fontSize: "24px",
-                      fontWeight: "600",
-                      marginBottom: "8px",
-                    }}
-                  >
-                    Civil Engineering
-                  </h3>
-                  <p style={{ color: "#9ca3af" }}>
-                    General construction, infrastructure development, and
-                    project management.
-                  </p>
-                </div>
+                <Link href="/civil" className="service-card">
+                  <div>
+                    <span
+                      className="material-icons"
+                      style={{
+                        fontSize: "80px",
+                        color: "#f59e0b",
+                        marginBottom: "16px",
+                      }}
+                    >
+                      apartment
+                    </span>
+                    <h3
+                      style={{
+                        fontSize: "24px",
+                        fontWeight: "600",
+                        marginBottom: "8px",
+                      }}
+                    >
+                      Civil Engineering
+                    </h3>
+                    <p style={{ color: "#9ca3af" }}>
+                      General construction, infrastructure development, and
+                      project management.
+                    </p>
+                  </div>
+                </Link>
+
                 <div className="service-card">
                   <span
                     className="material-icons"
@@ -847,7 +853,7 @@ const IKSUWebsite = () => {
             <p>
               © 2025 IKSU Consulting Services (Pvt) Ltd. All Rights Reserved.
               <br />
-              Powered by
+              Developed by
               <a
                 className="nav-link"
                 href="https://anasfarooq.com"

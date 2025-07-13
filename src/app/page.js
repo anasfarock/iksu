@@ -264,6 +264,9 @@ const IKSUWebsite = () => {
 
             {/* Desktop Navigation */}
             <nav className="nav-desktop">
+              <a className="nav-link" href="#home">
+                Home
+              </a>
               <a className="nav-link" href="#about">
                 About Us
               </a>

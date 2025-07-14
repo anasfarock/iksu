@@ -220,7 +220,7 @@ const ServiceDetail = () => {
 
         .details-section {
           padding: 80px 0;
-          background-color: #121212;
+          background-color: #1f2937;
         }
 
         .details-grid {
@@ -314,7 +314,7 @@ const ServiceDetail = () => {
 
         .related-section {
           padding: 80px 0;
-          background-color: #1f2937;
+          background-color: #121212;
         }
 
         .related-title {
@@ -488,9 +488,17 @@ const ServiceDetail = () => {
           <div className="container">
             <div className="details-grid">
               <div>
-                <h3 className="details-title section-title">
-                  Service Overview
-                </h3>
+                <h2
+                  style={{
+                    fontSize: "48px",
+                    fontWeight: "bold",
+                    textAlign: "center",
+                    marginBottom: "48px",
+                  }}
+                  className="section-title"
+                >
+                  Our Services
+                </h2>
                 <p className="details-text">
                   Our Civil Engineering division is the cornerstone of IKSU's
                   operations. We specialize in turning ambitious visions into
@@ -577,7 +585,17 @@ const ServiceDetail = () => {
 
         <section className="related-section">
           <div className="container">
-            <h2 className="related-title section-title">Related Services</h2>
+            <h2
+              style={{
+                fontSize: "48px",
+                fontWeight: "bold",
+                textAlign: "center",
+                marginBottom: "48px",
+              }}
+              className="section-title"
+            >
+              Related Services
+            </h2>
             <div className="services-grid">
               <div className="service-card">
                 <span className="material-icons service-icon">
@@ -627,34 +645,125 @@ const ServiceDetail = () => {
           </div>
         </section>
 
-        <section className="cta-section">
-          <div className="container">
-            <h2 className="cta-title section-title">
-              Ready to Start Your Project?
+        <section
+          style={{
+            padding: "80px 0",
+            backgroundColor: "#1f2937",
+            textAlign: "center",
+          }}
+          id="contact"
+        >
+          <div
+            style={{
+              maxWidth: "1200px",
+              margin: "0 auto",
+              padding: "0 16px",
+            }}
+          >
+            <h2
+              style={{
+                fontSize: "48px",
+                fontWeight: "bold",
+                marginBottom: "16px",
+              }}
+              className="section-title"
+            >
+              Let&apos;s Build Together
             </h2>
-            <p className="cta-description">
-              Let's discuss how our Civil Engineering expertise can bring your
-              project to life. Contact us for a consultation.
+            <p
+              style={{
+                fontSize: "18px",
+                marginBottom: "32px",
+                color: "#d1d5db",
+                maxWidth: "512px",
+                margin: "0 auto 32px auto",
+              }}
+            >
+              If you have any upcoming tenders or projects, we&apos;d be happy
+              to explore how IKSU can add value and deliver results.
             </p>
-            <div className="cta-buttons">
-              <a className="btn-primary" href="#contact">
-                Get a Quote
-              </a>
-              <a className="btn-secondary" href="#services">
-                View All Services
-              </a>
+            <div
+              style={{
+                backgroundColor: "#374151",
+                padding: "32px",
+                borderRadius: "8px",
+                display: "inline-block",
+                boxShadow: "0 10px 25px rgba(0,0,0,0.1)",
+                animation: "fadeInUp 1s ease-out",
+              }}
+            >
+              <h3
+                style={{
+                  fontSize: "32px",
+                  fontWeight: "600",
+                  marginBottom: "8px",
+                }}
+              >
+                Contact Us
+              </h3>
+              <p
+                style={{
+                  color: "#f59e0b",
+                  fontSize: "24px",
+                  fontWeight: "500",
+                  margin: "8px 0",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <span className="material-icons" style={{ marginRight: "8px" }}>
+                  phone
+                </span>
+                0301-0444544
+              </p>
+              <p
+                style={{
+                  color: "#f59e0b",
+                  fontSize: "24px",
+                  fontWeight: "500",
+                  margin: "8px 0",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <span className="material-icons" style={{ marginRight: "8px" }}>
+                  phone
+                </span>
+                0333-8213196
+              </p>
             </div>
           </div>
         </section>
       </main>
 
-      <footer className="footer">
-        <div className="container">
-          <p className="footer-text">
+      <footer
+        style={{
+          padding: "24px 0",
+          backgroundColor: "#000000",
+          textAlign: "center",
+        }}
+      >
+        <div
+          style={{
+            maxWidth: "1200px",
+            margin: "0 auto",
+            padding: "0 16px",
+            color: "#9ca3af",
+          }}
+        >
+          <p>
             © 2025 IKSU Consulting Services (Pvt) Ltd. All Rights Reserved.
             <br />
-            Developed by{" "}
-            <a href="https://www.anasfarooq.com" className="footer-text">
+            Developed by
+            <a
+              className="nav-link"
+              href="https://anasfarooq.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "#c9c4c4ff", marginLeft: "-12px", opacity: 0.6 }}
+            >
               Anas Farooq
             </a>
           </p>

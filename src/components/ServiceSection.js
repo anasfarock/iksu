@@ -10,57 +10,65 @@ const services = [
     icon: "apartment",
     description:
       "General construction, infrastructure development, and project management.",
-    link: "/civil",
+    link: "/services/civil-engineering",
   },
   {
-    title: "Building Maintenance & Renovation",
+    title: "Building Renovation",
     icon: "construction",
     description:
       "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+    link: "/services/civil-engineering",
   },
   {
     title: "Perimeter Security",
     icon: "security",
     description:
-      "Supply and installation of HESCO bags, chain link fencing, razor wire, and more.",
+      "Supply and installation of HESCO bags, chain link fencing, razor wire, and much more.",
+    link: "/services/civil-engineering",
   },
   {
     title: "Electrical Engineering",
     icon: "electrical_services",
     description: "Design, installation, and maintenance of electrical systems.",
+    link: "/services/civil-engineering",
   },
   {
     title: "Solar Energy",
     icon: "solar_power",
     description: "Solar panel installation and renewable energy solutions.",
+    link: "/services/civil-engineering",
   },
   {
     title: "Mechanical Engineering",
     icon: "precision_manufacturing",
     description: "Mechanical system design, installation, and servicing.",
+    link: "/services/civil-engineering",
   },
   {
     title: "Cyber Solutions",
     icon: "dns",
     description: "Cybersecurity, data management, and IT services.",
+    link: "/services/civil-engineering",
   },
   {
     title: "Import/Export",
     icon: "public",
     description:
       "Global trade support for construction materials and commercial goods.",
+    link: "/services/civil-engineering",
   },
   {
     title: "Event Management",
     icon: "event",
     description:
       "End-to-end planning for corporate, cultural, and social gatherings.",
+    link: "/services/civil-engineering",
   },
 ];
 
 const ServiceCard = ({ icon, title, description, link }) => {
   const cardContent = (
-    <div className="service-card">
+    <>
       <span
         className="material-icons"
         style={{ fontSize: "80px", color: "#f59e0b", marginBottom: "16px" }}
@@ -71,20 +79,18 @@ const ServiceCard = ({ icon, title, description, link }) => {
         {title}
       </h3>
       <p style={{ color: "#9ca3af" }}>{description}</p>
-    </div>
+    </>
   );
 
-  return link ? (
-    <Link
-      href={link}
-      className="no-underline text-white"
-      style={{ textDecoration: "none", color: "inherit" }}
-    >
-      {cardContent}
-    </Link>
-  ) : (
-    cardContent
-  );
+  if (link) {
+    return (
+      <Link href={link} style={{ textDecoration: "none", color: "inherit" }}>
+        <div className="service-card">{cardContent}</div>
+      </Link>
+    );
+  }
+
+  return <div className="service-card">{cardContent}</div>;
 };
 
 const ServiceSection = () => {

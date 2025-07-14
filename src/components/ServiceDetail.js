@@ -1,16 +1,28 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Head from "next/head";
-import Link from "next/link";
 import Footer from "@/components/Footer";
 import ContactSection from "@/components/Contact";
 import ServicesHeader from "@/components/ServicesHeader";
 
-const ServiceDetail = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+const ServiceDetail = ({ data }) => {
+  const { title, subtitle, details, expertise, images, relatedServices } = data;
 
   return (
     <div>
+      {/* Add Google Fonts and Material Icons */}
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"
+        />
+      </Head>
+
+      {/* Apply global styles inline */}
       <style jsx global>{`
         @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
         @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
@@ -439,209 +451,115 @@ const ServiceDetail = () => {
 
       {/* Header */}
       <ServicesHeader />
-      <main>
-        {/* Hero Section */}
-        <section className="hero-section">
-          <div className="container">
-            <nav className="breadcrumb">
-              <div className="breadcrumb-item">
-                <Link className="breadcrumb-link" href="/#home">
-                  Home
-                </Link>
-                <span className="material-icons breadcrumb-separator">
-                  chevron_right
-                </span>
-              </div>
-              <div className="breadcrumb-item">
-                <Link className="breadcrumb-link" href="/#services">
-                  Services
-                </Link>
-                <span className="material-icons breadcrumb-separator">
-                  chevron_right
-                </span>
-              </div>
-              <div className="breadcrumb-item">
-                <span style={{ color: "#9ca3af" }}>Civil Engineering</span>
-              </div>
-            </nav>
-            <h2 className="hero-title">Civil Engineering</h2>
-            <p className="hero-subtitle">
-              Comprehensive solutions for general construction, infrastructure
-              development, and end-to-end project management.
-            </p>
-          </div>
-        </section>
 
-        {/* Details Section */}
-        <section className="details-section">
-          <div className="container">
-            <div style={{ textAlign: "center" }}>
-              <h2
-                className="section-title"
-                style={{
-                  fontSize: "48px",
-                  fontWeight: "bold",
-                  marginBottom: "48px",
-                }}
-              >
-                Service Overview
-              </h2>
+      {/* Hero Section */}
+      <section className="hero-section">
+        <div className="container">
+          <nav className="breadcrumb">
+            <div className="breadcrumb-item">
+              <a className="breadcrumb-link" href="/#home">
+                Home
+              </a>
+              <span className="material-icons breadcrumb-separator">
+                chevron_right
+              </span>
             </div>
-            <div className="details-grid">
-              <div>
-                <p className="details-text">
-                  Our Civil Engineering division is the cornerstone of IKSU's
-                  operations. We specialize in turning ambitious visions into
-                  tangible realities, from foundational infrastructure to
-                  complex urban development projects. Our team of seasoned
-                  engineers and project managers leverages cutting-edge
-                  technology and sustainable practices to deliver projects that
-                  are not only structurally sound but also environmentally
-                  conscious and built to last for generations.
-                </p>
-                <p className="details-text">
-                  We manage every phase of the construction lifecycle, ensuring
-                  seamless coordination, adherence to timelines, and strict
-                  budget control. Our commitment to quality and safety is
-                  unwavering, with rigorous checks and balances implemented at
-                  every stage. Whether it's a large-scale public works project
-                  or a private commercial development, we bring the same level
-                  of dedication and expertise.
-                </p>
+            <div className="breadcrumb-item">
+              <a className="breadcrumb-link" href="/#services">
+                Services
+              </a>
+              <span className="material-icons breadcrumb-separator">
+                chevron_right
+              </span>
+            </div>
+            <div className="breadcrumb-item">
+              <span style={{ color: "#9ca3af" }}>{title}</span>
+            </div>
+          </nav>
+          <h2 className="hero-title">{title}</h2>
+          <p className="hero-subtitle">{subtitle}</p>
+        </div>
+      </section>
 
-                <h4 className="expertise-title">Key Areas of Expertise:</h4>
-                <ul className="expertise-list">
-                  <li className="expertise-item">
-                    <span className="material-icons expertise-icon">
-                      check_circle
-                    </span>
-                    <span className="expertise-text">
-                      <strong>Infrastructure Development:</strong> Roads,
-                      bridges, water supply systems, and drainage networks.
-                    </span>
-                  </li>
-                  <li className="expertise-item">
-                    <span className="material-icons expertise-icon">
-                      check_circle
-                    </span>
-                    <span className="expertise-text">
-                      <strong>General Construction:</strong> Residential,
-                      commercial, and industrial buildings from the ground up.
-                    </span>
-                  </li>
-                  <li className="expertise-item">
-                    <span className="material-icons expertise-icon">
-                      check_circle
-                    </span>
-                    <span className="expertise-text">
-                      <strong>Project Management:</strong> Comprehensive
-                      oversight including planning, execution, and delivery.
-                    </span>
-                  </li>
-                  <li className="expertise-item">
-                    <span className="material-icons expertise-icon">
-                      check_circle
-                    </span>
-                    <span className="expertise-text">
-                      <strong>Geotechnical Engineering:</strong> Site
-                      investigation, soil analysis, and foundation design.
-                    </span>
-                  </li>
-                </ul>
-              </div>
+      {/* Details */}
+      <section className="details-section">
+        <div className="container">
+          <div style={{ textAlign: "center" }}>
+            <h2
+              className="section-title"
+              style={{
+                fontSize: "48px",
+                fontWeight: "bold",
+                marginBottom: "48px",
+              }}
+            >
+              Service Overview
+            </h2>
+          </div>
 
-              <div className="image-gallery">
-                <img
-                  className="main-image"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqbj0PAYPF8COGYqw_9_N3zlfUhY3AHFWaKZtJcUqTqykU3iRXTte0sxIjakgdiWAd7fq0Ses4iKCXclOrSdn1oBVq6GptmU_tMnEzv96osTKTbNpydbwatjg_lEUx2ycXG_Z5dACGDMxNryRyk8Toc6cnzBe85y7poV74Yl_Jlxs8__Nd_S4Cpkb_rTLe8Pvm_3TreYummUKnNKR0BpR-KwYYumRyGYNAbmTl81zwis3UdMYt_aOIe-LV6p99hmt34Djfo1oVCpQ"
-                  alt="Civil Engineering Project 1"
-                />
-                <div className="image-grid">
+          <div className="details-grid">
+            {/* Left Column: Text + Expertise */}
+            <div>
+              {details.map((text, i) => (
+                <p key={i} className="details-text">
+                  {text}
+                </p>
+              ))}
+
+              <h4 className="expertise-title">Key Areas of Expertise:</h4>
+              <ul className="expertise-list">
+                {expertise.map((item, i) => (
+                  <li key={i} className="expertise-item">
+                    <span className="material-icons expertise-icon">
+                      check_circle
+                    </span>
+                    <span className="expertise-text">
+                      <strong>{item.title}:</strong> {item.desc}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            {/* Right Column: Images */}
+            <div className="image-gallery">
+              <img className="main-image" src={images.main} alt={title} />
+              <div className="image-grid">
+                {images.gallery.map((img, i) => (
                   <img
+                    key={i}
                     className="grid-image"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCi_kpfnCC4PntNqEBg8_Ybxo6U6fHa3ATq6vOu7qO76EJmhgSPkjt98LURTJS8MuKdQHZS7fFodF2wozG-rGY4LduhGnjTZNjJz16LIUWDct1Lmu3JbVszpSEglXfsaw9TwMPyI4pDZ_mFl8N0S05YwLURVxSP8qn1zKMBg35Y1MILYZEk04UCNHgzRaX-ttuQcHWGz3qEeBpxPb0r-6PtqJoBAXpcmHJyTwAFNh8qNBPYMmkqOVFD9-JM-5qYwRki1g1Ba8d4enk"
-                    alt="Civil Engineering Project 2"
+                    src={img}
+                    alt={`Gallery ${i}`}
                   />
-                  <img
-                    className="grid-image"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHqejyk-J9wiP9QriMnuLo9YnxdgoutTcDaORPloX8H9zf11_16_FTksxhEwxUTYREzsg-u32inTHzDMboyJSWeB9hinYMnuSBGHuwrWP4_cR74GTbv7oP6DenyydXYFyNa1_mZVQkaJbZR5D39NkmbqaIE-T1DRT_1qV8q4qGTyuEIWG7G1CHXHBNRHP1Cg0yjexgpG5PIdZKNnGcAMRK5bLLO-O_QaYtE5IwiJjGOP0t-cdShVeLezk-65pVZrMQpStHUgMLvNI"
-                    alt="Civil Engineering Project 3"
-                  />
-                </div>
+                ))}
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        {/* Related Section */}
-        <section className="related-section">
-          <div className="container">
-            <div style={{ textAlign: "center" }}>
-              <h2
-                className="section-title"
-                style={{
-                  fontSize: "48px",
-                  fontWeight: "bold",
-                  marginBottom: "48px",
-                }}
-              >
-                Related Services
-              </h2>
-            </div>
-            <div className="services-grid">
-              <div className="service-card">
-                <span className="material-icons service-icon">
-                  construction
-                </span>
-                <h3 className="service-title">
-                  Building Maintenance & Renovation
-                </h3>
-                <p className="service-description">
-                  Civil, electrical, and plumbing maintenance, paintwork,
-                  repair, and complete renovations.
-                </p>
-                <a className="service-link" href="#">
+      {/* Related Services */}
+      <section className="related-section">
+        <div className="container">
+          <h2 className="related-title">Related Services</h2>
+          <div className="services-grid">
+            {relatedServices.map((service, index) => (
+              <div key={index} className="service-card">
+                <span className="material-icons service-icon">engineering</span>
+                <h3 className="service-title">{service.title}</h3>
+                <p className="service-description">{service.description}</p>
+                <a href={`/services/${service.slug}`} className="service-link">
                   Learn More
                   <span className="material-icons">arrow_forward</span>
                 </a>
               </div>
-
-              <div className="service-card">
-                <span className="material-icons service-icon">
-                  electrical_services
-                </span>
-                <h3 className="service-title">Electrical Engineering</h3>
-                <p className="service-description">
-                  Design, installation, and maintenance of electrical systems.
-                </p>
-                <a className="service-link" href="#">
-                  Learn More
-                  <span className="material-icons">arrow_forward</span>
-                </a>
-              </div>
-
-              <div className="service-card">
-                <span className="material-icons service-icon">
-                  precision_manufacturing
-                </span>
-                <h3 className="service-title">Mechanical Engineering</h3>
-                <p className="service-description">
-                  Mechanical system design, installation, and servicing.
-                </p>
-                <a className="service-link" href="#">
-                  Learn More
-                  <span className="material-icons">arrow_forward</span>
-                </a>
-              </div>
-            </div>
+            ))}
           </div>
-        </section>
-
-        {/* Contact Section */}
-        <ContactSection />
-      </main>
-
-      {/* Footer */}
+        </div>
+      </section>
+      {/* Contact + Footer */}
+      <ContactSection />
       <Footer />
     </div>
   );

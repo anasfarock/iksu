@@ -93,7 +93,8 @@ const ServiceDetail = () => {
         .section-title {
           position: relative;
           display: inline-block;
-          margin-bottom: 24px;
+          margin: 0 auto 24px;
+          text-align: center;
         }
 
         .section-title::after {
@@ -185,7 +186,7 @@ const ServiceDetail = () => {
         }
 
         .hero-section {
-          padding: 11s0px 0;
+          padding: 110px 0;
           background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
             url("https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
           background-size: cover;
@@ -589,19 +590,20 @@ const ServiceDetail = () => {
 
         <section className="details-section">
           <div className="container">
+            <div style={{ textAlign: "center" }}>
+              <h2
+                className="section-title"
+                style={{
+                  fontSize: "48px",
+                  fontWeight: "bold",
+                  marginBottom: "48px",
+                }}
+              >
+                Our Services
+              </h2>
+            </div>
             <div className="details-grid">
               <div>
-                <h2
-                  style={{
-                    fontSize: "48px",
-                    fontWeight: "bold",
-                    textAlign: "center",
-                    marginBottom: "48px",
-                  }}
-                  className="section-title"
-                >
-                  Our Services
-                </h2>
                 <p className="details-text">
                   Our Civil Engineering division is the cornerstone of IKSU's
                   operations. We specialize in turning ambitious visions into
@@ -688,17 +690,18 @@ const ServiceDetail = () => {
 
         <section className="related-section">
           <div className="container">
-            <h2
-              style={{
-                fontSize: "48px",
-                fontWeight: "bold",
-                textAlign: "center",
-                marginBottom: "48px",
-              }}
-              className="section-title"
-            >
-              Related Services
-            </h2>
+            <div style={{ textAlign: "center" }}>
+              <h2
+                className="section-title"
+                style={{
+                  fontSize: "48px",
+                  fontWeight: "bold",
+                  marginBottom: "48px",
+                }}
+              >
+                Related Services
+              </h2>
+            </div>
             <div className="services-grid">
               <div className="service-card">
                 <span className="material-icons service-icon">

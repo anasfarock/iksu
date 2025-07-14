@@ -651,8 +651,12 @@ const ServiceDetail = () => {
       <footer className="footer">
         <div className="container">
           <p className="footer-text">
-            © 2024 IKSU Consultant and Construction Company. All Rights
-            Reserved.
+            © 2025 IKSU Consulting Services (Pvt) Ltd. All Rights Reserved.
+            <br />
+            Developed by{" "}
+            <a href="https://www.anasfarooq.com" className="footer-text">
+              Anas Farooq
+            </a>
           </p>
         </div>
       </footer>

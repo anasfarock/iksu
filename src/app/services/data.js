@@ -31,17 +31,25 @@ const servicesData = {
       {
         title: "Electrical Engineering",
         slug: "electrical-engineering",
-        icons: icons.electricalServices,
+        icons: "electrical_services",
+        link: "/services/electrical-engineering",
+        description:
+          "Design, installation, and maintenance of electrical systems.",
       },
       {
         title: "Mechanical Engineering",
         slug: "mechanical-engineering",
-        icons: icons.precisionManufacturing,
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
       },
       {
         title: "Maintenance & Renovation",
         slug: "maintenance-renovation",
-        icons: icons.construction,
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
       },
     ],
   },

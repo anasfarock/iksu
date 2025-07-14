@@ -4,6 +4,7 @@ import Head from "next/head";
 import Footer from "@/components/Footer";
 import ContactSection from "@/components/Contact";
 import ServicesHeader from "@/components/ServicesHeader";
+import Link from "next/link";
 
 const ServiceDetail = ({ data }) => {
   const { title, subtitle, details, expertise, images, relatedServices } = data;
@@ -540,24 +541,83 @@ const ServiceDetail = ({ data }) => {
       </section>
 
       {/* Related Services */}
-      <section className="related-section">
-        <div className="container">
-          <h2 className="related-title">Related Services</h2>
-          <div className="services-grid">
+      <section style={{ padding: "80px 0", backgroundColor: "#121212" }}>
+        <div
+          style={{
+            maxWidth: "1200px",
+            margin: "0 auto",
+            padding: "0 16px",
+            textAlign: "center",
+          }}
+        >
+          <h2
+            style={{
+              fontSize: "48px",
+              fontWeight: "bold",
+              marginBottom: "48px",
+            }}
+            className="section-title"
+          >
+            Related Services
+          </h2>
+
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+              gap: "32px",
+            }}
+          >
             {relatedServices.map((service, index) => (
-              <div key={index} className="service-card">
-                <span className="material-icons service-icon">engineering</span>
-                <h3 className="service-title">{service.title}</h3>
-                <p className="service-description">{service.description}</p>
-                <a href={`/services/${service.slug}`} className="service-link">
-                  Learn More
-                  <span className="material-icons">arrow_forward</span>
-                </a>
-              </div>
+              <Link
+                key={index}
+                href={`/services/${service.slug}`}
+                style={{ textDecoration: "none", color: "inherit" }}
+              >
+                <div
+                  className="service-card"
+                  style={{
+                    backgroundColor: "#1f1f1f",
+                    padding: "32px",
+                    borderRadius: "12px",
+                    textAlign: "center",
+                    transition: "all 0.3s ease",
+                    height: "100%",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                    cursor: "pointer",
+                  }}
+                >
+                  <div>
+                    <span
+                      className="material-icons"
+                      style={{
+                        fontSize: "80px",
+                        color: "#f59e0b",
+                        marginBottom: "16px",
+                      }}
+                    >
+                      {service.icons}
+                    </span>
+                    <h3
+                      style={{
+                        fontSize: "24px",
+                        fontWeight: 600,
+                        marginBottom: "8px",
+                      }}
+                    >
+                      {service.title}
+                    </h3>
+                    <p style={{ color: "#9ca3af" }}>{service.description}</p>
+                  </div>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
       </section>
+
       {/* Contact + Footer */}
       <ContactSection />
       <Footer />

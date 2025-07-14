@@ -2,6 +2,9 @@
 import React, { useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
+import Footer from "@/components/Footer";
+import ContactSection from "@/components/Contact";
+import ServicesHeader from "@/components/ServicesHeader";
 
 const ServiceDetail = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -422,16 +425,6 @@ const ServiceDetail = () => {
             justify-content: center;
           }
         }
-
-        .footer {
-          padding: 24px 0;
-          background-color: #000000;
-          text-align: center;
-        }
-
-        .footer-text {
-          color: #9ca3af;
-        }
       `}</style>
       <Head>
         <link
@@ -444,117 +437,10 @@ const ServiceDetail = () => {
         />
       </Head>
 
-      <header
-        style={{
-          padding: "24px 16px",
-          position: "absolute",
-          top: 0,
-          left: 0,
-          right: 0,
-          zIndex: 30,
-          backgroundColor: "rgba(0, 0, 0, 0.2)",
-        }}
-      >
-        <div
-          style={{
-            maxWidth: "1200px",
-            margin: "0 auto",
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
-        >
-          {/* Logo */}
-          <h1 style={{ fontSize: "32px", fontWeight: "bold", margin: 0 }}>
-            IKSU
-          </h1>
-
-          {/* Desktop Navigation */}
-          <nav className="nav-desktop">
-            <Link className="nav-link" href="/#home">
-              Home
-            </Link>
-            <Link className="nav-link" href="/#about">
-              About Us
-            </Link>
-            <Link className="nav-link" href="/#services">
-              Services
-            </Link>
-            <Link className="nav-link" href="/#contact">
-              Contact
-            </Link>
-          </nav>
-
-          {/* CTA + Mobile Icon */}
-          <div className="header-right">
-            <a className="btn-primary nav-desktop" href="#contact">
-              Get a Quote
-            </a>
-            <button
-              className="mobile-menu-icon"
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              style={{
-                background: "transparent",
-                border: "none",
-                color: "#ffffff",
-                cursor: "pointer",
-              }}
-            >
-              <span className="material-icons">menu</span>
-            </button>
-          </div>
-        </div>
-      </header>
-
-      {/* Mobile Dropdown */}
-      {mobileMenuOpen && (
-        <div
-          className="mobile-menu"
-          style={{
-            position: "absolute",
-            top: "80px",
-            left: 0,
-            right: 0,
-            backgroundColor: "#1f1f1f",
-            padding: "16px 24px",
-            zIndex: 29,
-            display: "flex",
-            flexDirection: "column",
-            gap: "16px",
-          }}
-        >
-          <a
-            className="nav-link"
-            href="#about"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            About Us
-          </a>
-          <a
-            className="nav-link"
-            href="#services"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Services
-          </a>
-          {/* <a
-              className="nav-link"
-              href="#projects"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Projects
-            </a> */}
-          <a
-            className="nav-link"
-            href="#contact"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Contact
-          </a>
-        </div>
-      )}
-
+      {/* Header */}
+      <ServicesHeader />
       <main>
+        {/* Hero Section */}
         <section className="hero-section">
           <div className="container">
             <nav className="breadcrumb">
@@ -586,6 +472,7 @@ const ServiceDetail = () => {
           </div>
         </section>
 
+        {/* Details Section */}
         <section className="details-section">
           <div className="container">
             <div style={{ textAlign: "center" }}>
@@ -597,7 +484,7 @@ const ServiceDetail = () => {
                   marginBottom: "48px",
                 }}
               >
-                Our Services
+                Service Overview
               </h2>
             </div>
             <div className="details-grid">
@@ -686,6 +573,7 @@ const ServiceDetail = () => {
           </div>
         </section>
 
+        {/* Related Section */}
         <section className="related-section">
           <div className="container">
             <div style={{ textAlign: "center" }}>
@@ -749,194 +637,12 @@ const ServiceDetail = () => {
           </div>
         </section>
 
-        <section
-          style={{
-            padding: "80px 0",
-            backgroundColor: "#1f2937",
-            textAlign: "center",
-          }}
-          id="contact"
-        >
-          <div
-            style={{
-              maxWidth: "1200px",
-              margin: "0 auto",
-              padding: "0 16px",
-            }}
-          >
-            <h2
-              style={{
-                fontSize: "48px",
-                fontWeight: "bold",
-                marginBottom: "16px",
-              }}
-              className="section-title"
-            >
-              Let&apos;s Build Together
-            </h2>
-
-            <p
-              style={{
-                fontSize: "18px",
-                marginTop: "22px",
-                marginBottom: "32px",
-                color: "#d1d5db",
-                maxWidth: "800px",
-                margin: "0 auto 32px auto",
-              }}
-            >
-              If you have any upcoming tenders or projects, we&apos;d be happy
-              to explore how IKSU can add value and deliver results.
-            </p>
-
-            {/* Two-column layout for Contact + Location boxes */}
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                gap: "32px",
-                flexWrap: "wrap",
-                marginTop: "48px",
-              }}
-            >
-              {/* Contact Us Box */}
-              <div
-                style={{
-                  backgroundColor: "#374151",
-                  padding: "32px",
-                  borderRadius: "8px",
-                  boxShadow: "0 10px 25px rgba(0,0,0,0.1)",
-                  animation: "fadeInUp 1s ease-out",
-                  width: "450px",
-                }}
-              >
-                <h3
-                  style={{
-                    fontSize: "32px",
-                    fontWeight: "600",
-                    marginBottom: "16px",
-                  }}
-                >
-                  Contact Us
-                </h3>
-                <p
-                  style={{
-                    color: "#f59e0b",
-                    fontSize: "24px",
-                    fontWeight: "500",
-                    margin: "8px 0",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  <span
-                    className="material-icons"
-                    style={{ marginRight: "8px" }}
-                  >
-                    phone
-                  </span>
-                  0301-0444544
-                </p>
-                <p
-                  style={{
-                    color: "#f59e0b",
-                    fontSize: "24px",
-                    fontWeight: "500",
-                    margin: "8px 0",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  <span
-                    className="material-icons"
-                    style={{ marginRight: "8px" }}
-                  >
-                    phone
-                  </span>
-                  0333-8213196
-                </p>
-              </div>
-
-              {/* Location Box */}
-              <div
-                style={{
-                  backgroundColor: "#374151",
-                  padding: "32px",
-                  borderRadius: "8px",
-                  boxShadow: "0 10px 25px rgba(0,0,0,0.1)",
-                  animation: "fadeInUp 1s ease-out",
-                  width: "450px",
-                }}
-              >
-                <h3
-                  style={{
-                    fontSize: "32px",
-                    fontWeight: "600",
-                    marginBottom: "16px",
-                  }}
-                >
-                  Our Location
-                </h3>
-                <p style={{ marginBottom: "16px", color: "#d1d5db" }}>
-                  Street #4, G-11/3, Islamabad
-                </p>
-                <div
-                  style={{
-                    borderRadius: "6px",
-                    overflow: "hidden",
-                    height: "200px",
-                  }}
-                >
-                  <iframe
-                    title="IKSU Location"
-                    src="https://maps.google.com/maps?q=G-11/3%20Islamabad&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                    width="100%"
-                    height="100%"
-                    frameBorder="0"
-                    style={{ border: 0 }}
-                    allowFullScreen=""
-                    loading="lazy"
-                  ></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+        {/* Contact Section */}
+        <ContactSection />
       </main>
 
-      <footer
-        style={{
-          padding: "24px 0",
-          backgroundColor: "#000000",
-          textAlign: "center",
-        }}
-      >
-        <div
-          style={{
-            maxWidth: "1200px",
-            margin: "0 auto",
-            padding: "0 16px",
-            color: "#9ca3af",
-          }}
-        >
-          <p>
-            © 2025 IKSU Consulting Services (Pvt) Ltd. All Rights Reserved.
-            <br />
-            Developed by
-            <a
-              className="nav-link"
-              href="https://anasfarooq.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: "#c9c4c4ff", marginLeft: "-12px", opacity: 0.6 }}
-            >
-              Anas Farooq
-            </a>
-          </p>
-        </div>
-      </footer>
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };

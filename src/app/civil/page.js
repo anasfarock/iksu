@@ -185,8 +185,12 @@ const ServiceDetail = () => {
         }
 
         .hero-section {
-          padding: 80px 0;
-          background-color: #000000;
+          padding: 11s0px 0;
+          background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+            url("https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
         }
 
         .breadcrumb {

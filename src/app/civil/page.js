@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Head from "next/head";
+import Link from "next/link";
 
 const ServiceDetail = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -470,21 +471,18 @@ const ServiceDetail = () => {
 
           {/* Desktop Navigation */}
           <nav className="nav-desktop">
-            <a className="nav-link" href="#home">
+            <Link className="nav-link" href="/#home">
               Home
-            </a>
-            <a className="nav-link" href="#about">
+            </Link>
+            <Link className="nav-link" href="/#about">
               About Us
-            </a>
-            <a className="nav-link" href="#services">
+            </Link>
+            <Link className="nav-link" href="/#services">
               Services
-            </a>
-            {/* <a className="nav-link" href="#projects">
-                Projects
-              </a> */}
-            <a className="nav-link" href="#contact">
+            </Link>
+            <Link className="nav-link" href="/#contact">
               Contact
-            </a>
+            </Link>
           </nav>
 
           {/* CTA + Mobile Icon */}
@@ -561,17 +559,17 @@ const ServiceDetail = () => {
           <div className="container">
             <nav className="breadcrumb">
               <div className="breadcrumb-item">
-                <a className="breadcrumb-link" href="#">
+                <Link className="breadcrumb-link" href="/#home">
                   Home
-                </a>
+                </Link>
                 <span className="material-icons breadcrumb-separator">
                   chevron_right
                 </span>
               </div>
               <div className="breadcrumb-item">
-                <a className="breadcrumb-link" href="#">
+                <Link className="breadcrumb-link" href="/#services">
                   Services
-                </a>
+                </Link>
                 <span className="material-icons breadcrumb-separator">
                   chevron_right
                 </span>

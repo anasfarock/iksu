@@ -39,30 +39,15 @@ const AboutSection = () => {
             marginBottom: "36px",
           }}
         >
-          IKSU Consultant and Construction Company is a full-service firm
-          dedicated to providing comprehensive, high-quality engineering and
-          construction solutions. We are fully equipped to participate in
-          tenders and projects across a wide range of sectors. At IKSU, we are
-          committed to delivering innovative, secure, and sustainable solutions
-          that meet the highest industry standards. Our team ensures quality,
-          transparency, and complete client satisfaction in every project. Our
-          expertise spans multiple disciplines, including Civil Engineering for
-          general construction, infrastructure development, and project
-          management, as well as Building Maintenance & Renovation, covering
-          civil, electrical, and plumbing maintenance, paintwork, repair, and
-          complete renovations. We also specialize in Electrical Engineering,
-          Solar Energy, and Mechanical Engineering, offering comprehensive
-          design, installation, and maintenance services for systems and
-          renewable power solutions. Additionally, we provide Cyber Solutions
-          for cybersecurity and IT services, and facilitate Import/Export
-          support for construction materials and commercial goods. A key area of
-          our specialization is Defense Supplies & Specialized Items, where we
-          supply and install HESCO bags, chain link fencing, razor wire, and
-          gabions. We have proudly executed defense-related supply projects
-          worth approximately PKR 8 crore, collaborating effectively with
-          multiple Army divisions and units. IKSU is always ready to explore how
-          our expertise can add value and deliver results on upcoming tenders
-          and projects.
+          IKSU Consulting Services (Pvt) Ltd is a forward-thinking,
+          multi-dimensional company committed to delivering integrated solutions
+          across a wide range of industries. Our expertise spans from material
+          management and event coordination to human resource services, disaster
+          response, and family entertainment center development. We also offer
+          specialized civil works, perimeter security solutions (including Hesco
+          bags, chain link fences, razor wire, barbed wire, and sandbags), and
+          comprehensive import/export facilitation. This broad scope underscores
+          our dedication to innovation, quality, and total client satisfaction.
         </p>
       </div>
     </section>

@@ -63,12 +63,12 @@ const services = [
     description: "Mechanical system design, installation, and servicing.",
     link: "/services/mechanical-engineering",
   },
-  {
-    title: "Cyber Solutions",
-    icon: "dns",
-    description: "Cybersecurity, data management, and IT services.",
-    link: "/services/cyber-solutions",
-  },
+  // {
+  //   title: "Cyber Solutions",
+  //   icon: "dns",
+  //   description: "Cybersecurity, data management, and IT services.",
+  //   link: "/services/cyber-solutions",
+  // },
   {
     title: "Import/Export",
     icon: "public",
@@ -76,26 +76,26 @@ const services = [
       "Global trade support for construction materials and commercial goods.",
     link: "/services/import-export",
   },
-  {
-    title: "Event Management",
-    icon: "event",
-    description:
-      "End-to-end planning for corporate, cultural, and social gatherings.",
-    link: "/services/event-management",
-  },
+  // {
+  //   title: "Event Management",
+  //   icon: "event",
+  //   description:
+  //     "End-to-end planning for corporate, cultural, and social gatherings.",
+  //   link: "/services/event-management",
+  // },
   {
     title: "Human Resource",
     icon: "group",
     description: "Talent acquisition, development, and workforce management.",
     link: "/services/human-resource",
   },
-  {
-    title: "Mall Management",
-    icon: "store_mall_directory",
-    description:
-      "Optimized operations and tenant coordination for retail spaces.",
-    link: "/services/mall-management",
-  },
+  // {
+  //   title: "Mall Management",
+  //   icon: "store_mall_directory",
+  //   description:
+  //     "Optimized operations and tenant coordination for retail spaces.",
+  //   link: "/services/mall-management",
+  // },
   {
     title: "Security & Training",
     icon: "security",

@@ -1,6 +1,8 @@
 const servicesData = {
   "civil-engineering": {
     title: "Civil Engineering",
+    imagehero:
+      "https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D/civil-engineering-hero.jpg",
     subtitle:
       "Comprehensive solutions for general construction, infrastructure development, and end-to-end project management.",
     details: [

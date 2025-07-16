@@ -7,7 +7,15 @@ import ServicesHeader from "@/components/ServicesHeader";
 import Link from "next/link";
 
 const ServiceDetail = ({ data }) => {
-  const { title, subtitle, details, expertise, images, relatedServices } = data;
+  const {
+    title,
+    subtitle,
+    details,
+    expertise,
+    images,
+    relatedServices,
+    imagehero,
+  } = data;
 
   return (
     <div>
@@ -204,8 +212,6 @@ const ServiceDetail = ({ data }) => {
 
         .hero-section {
           padding: 110px 0;
-          background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-            url("https://images.unsplash.com/photo-1485083269755-a7b559a4fe5e?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -454,7 +460,12 @@ const ServiceDetail = ({ data }) => {
       <ServicesHeader />
 
       {/* Hero Section */}
-      <section className="hero-section">
+      <section
+        className="hero-section"
+        style={{
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${imagehero})`,
+        }}
+      >
         <div className="container">
           <nav className="breadcrumb">
             <div className="breadcrumb-item">

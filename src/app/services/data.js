@@ -91,6 +91,604 @@ const servicesData = {
     ],
   },
 
+  "material-management-and-logistics": {
+    title: "Material Management & Logistics",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+    subtitle:
+      "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
+    details: [
+      "Our Electrical Engineering services cover everything from small-scale building wiring to large industrial electrical installations. We adhere to global standards, ensuring safety, efficiency, and scalability.",
+      "Our engineers work closely with clients to design energy-efficient systems tailored to the unique needs of each project, incorporating innovations like smart grids, automation, and renewable integrations.",
+    ],
+    expertise: [
+      {
+        title: "Power Distribution",
+        desc: "Low and high voltage systems, switchgear, and power factor correction.",
+      },
+      {
+        title: "Lighting Design",
+        desc: "Indoor and outdoor lighting planning for functionality and aesthetics.",
+      },
+    ],
+    images: {
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      gallery: [
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+      ],
+    },
+    relatedServices: [
+      {
+        title: "Mechanical Engineering",
+        slug: "mechanical-engineering",
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
+      },
+      {
+        title: "Maintenance & Renovation",
+        slug: "maintenance-renovation",
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+      },
+    ],
+  },
+
+  "janitorial-and-fumigation": {
+    title: "Janitorial & Fumigation Services",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+    subtitle:
+      "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
+    details: [
+      "Our Electrical Engineering services cover everything from small-scale building wiring to large industrial electrical installations. We adhere to global standards, ensuring safety, efficiency, and scalability.",
+      "Our engineers work closely with clients to design energy-efficient systems tailored to the unique needs of each project, incorporating innovations like smart grids, automation, and renewable integrations.",
+    ],
+    expertise: [
+      {
+        title: "Power Distribution",
+        desc: "Low and high voltage systems, switchgear, and power factor correction.",
+      },
+      {
+        title: "Lighting Design",
+        desc: "Indoor and outdoor lighting planning for functionality and aesthetics.",
+      },
+    ],
+    images: {
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      gallery: [
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+      ],
+    },
+    relatedServices: [
+      {
+        title: "Mechanical Engineering",
+        slug: "mechanical-engineering",
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
+      },
+      {
+        title: "Maintenance & Renovation",
+        slug: "maintenance-renovation",
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+      },
+    ],
+  },
+
+  "canteen-and-cafeteria": {
+    title: "Canteen & Cafeteria Services",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+    subtitle:
+      "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
+    details: [
+      "Our Electrical Engineering services cover everything from small-scale building wiring to large industrial electrical installations. We adhere to global standards, ensuring safety, efficiency, and scalability.",
+      "Our engineers work closely with clients to design energy-efficient systems tailored to the unique needs of each project, incorporating innovations like smart grids, automation, and renewable integrations.",
+    ],
+    expertise: [
+      {
+        title: "Power Distribution",
+        desc: "Low and high voltage systems, switchgear, and power factor correction.",
+      },
+      {
+        title: "Lighting Design",
+        desc: "Indoor and outdoor lighting planning for functionality and aesthetics.",
+      },
+    ],
+    images: {
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      gallery: [
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+      ],
+    },
+    relatedServices: [
+      {
+        title: "Mechanical Engineering",
+        slug: "mechanical-engineering",
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
+      },
+      {
+        title: "Maintenance & Renovation",
+        slug: "maintenance-renovation",
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+      },
+    ],
+  },
+
+  "building-and-renovation": {
+    title: "Building Renovation",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+    subtitle:
+      "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
+    details: [
+      "Our Electrical Engineering services cover everything from small-scale building wiring to large industrial electrical installations. We adhere to global standards, ensuring safety, efficiency, and scalability.",
+      "Our engineers work closely with clients to design energy-efficient systems tailored to the unique needs of each project, incorporating innovations like smart grids, automation, and renewable integrations.",
+    ],
+    expertise: [
+      {
+        title: "Power Distribution",
+        desc: "Low and high voltage systems, switchgear, and power factor correction.",
+      },
+      {
+        title: "Lighting Design",
+        desc: "Indoor and outdoor lighting planning for functionality and aesthetics.",
+      },
+    ],
+    images: {
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      gallery: [
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+      ],
+    },
+    relatedServices: [
+      {
+        title: "Mechanical Engineering",
+        slug: "mechanical-engineering",
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
+      },
+      {
+        title: "Maintenance & Renovation",
+        slug: "maintenance-renovation",
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+      },
+    ],
+  },
+
+  "perimeter-security": {
+    title: "Perimeter Security",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+    subtitle:
+      "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
+    details: [
+      "Our Electrical Engineering services cover everything from small-scale building wiring to large industrial electrical installations. We adhere to global standards, ensuring safety, efficiency, and scalability.",
+      "Our engineers work closely with clients to design energy-efficient systems tailored to the unique needs of each project, incorporating innovations like smart grids, automation, and renewable integrations.",
+    ],
+    expertise: [
+      {
+        title: "Power Distribution",
+        desc: "Low and high voltage systems, switchgear, and power factor correction.",
+      },
+      {
+        title: "Lighting Design",
+        desc: "Indoor and outdoor lighting planning for functionality and aesthetics.",
+      },
+    ],
+    images: {
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      gallery: [
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+      ],
+    },
+    relatedServices: [
+      {
+        title: "Mechanical Engineering",
+        slug: "mechanical-engineering",
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
+      },
+      {
+        title: "Maintenance & Renovation",
+        slug: "maintenance-renovation",
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+      },
+    ],
+  },
+
+  "solar-energy": {
+    title: "Solar Energy",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+    subtitle:
+      "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
+    details: [
+      "Our Electrical Engineering services cover everything from small-scale building wiring to large industrial electrical installations. We adhere to global standards, ensuring safety, efficiency, and scalability.",
+      "Our engineers work closely with clients to design energy-efficient systems tailored to the unique needs of each project, incorporating innovations like smart grids, automation, and renewable integrations.",
+    ],
+    expertise: [
+      {
+        title: "Power Distribution",
+        desc: "Low and high voltage systems, switchgear, and power factor correction.",
+      },
+      {
+        title: "Lighting Design",
+        desc: "Indoor and outdoor lighting planning for functionality and aesthetics.",
+      },
+    ],
+    images: {
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      gallery: [
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+      ],
+    },
+    relatedServices: [
+      {
+        title: "Mechanical Engineering",
+        slug: "mechanical-engineering",
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
+      },
+      {
+        title: "Maintenance & Renovation",
+        slug: "maintenance-renovation",
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+      },
+    ],
+  },
+
+  "mechanical-engineering": {
+    title: "Mechanical Engineering",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+    subtitle:
+      "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
+    details: [
+      "Our Electrical Engineering services cover everything from small-scale building wiring to large industrial electrical installations. We adhere to global standards, ensuring safety, efficiency, and scalability.",
+      "Our engineers work closely with clients to design energy-efficient systems tailored to the unique needs of each project, incorporating innovations like smart grids, automation, and renewable integrations.",
+    ],
+    expertise: [
+      {
+        title: "Power Distribution",
+        desc: "Low and high voltage systems, switchgear, and power factor correction.",
+      },
+      {
+        title: "Lighting Design",
+        desc: "Indoor and outdoor lighting planning for functionality and aesthetics.",
+      },
+    ],
+    images: {
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      gallery: [
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+      ],
+    },
+    relatedServices: [
+      {
+        title: "Mechanical Engineering",
+        slug: "mechanical-engineering",
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
+      },
+      {
+        title: "Maintenance & Renovation",
+        slug: "maintenance-renovation",
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+      },
+    ],
+  },
+
+  "cyber-solutions": {
+    title: "Cyber Solutions",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+    subtitle:
+      "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
+    details: [
+      "Our Electrical Engineering services cover everything from small-scale building wiring to large industrial electrical installations. We adhere to global standards, ensuring safety, efficiency, and scalability.",
+      "Our engineers work closely with clients to design energy-efficient systems tailored to the unique needs of each project, incorporating innovations like smart grids, automation, and renewable integrations.",
+    ],
+    expertise: [
+      {
+        title: "Power Distribution",
+        desc: "Low and high voltage systems, switchgear, and power factor correction.",
+      },
+      {
+        title: "Lighting Design",
+        desc: "Indoor and outdoor lighting planning for functionality and aesthetics.",
+      },
+    ],
+    images: {
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      gallery: [
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+      ],
+    },
+    relatedServices: [
+      {
+        title: "Mechanical Engineering",
+        slug: "mechanical-engineering",
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
+      },
+      {
+        title: "Maintenance & Renovation",
+        slug: "maintenance-renovation",
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+      },
+    ],
+  },
+
+  "import-export": {
+    title: "Import and Export",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+    subtitle:
+      "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
+    details: [
+      "Our Electrical Engineering services cover everything from small-scale building wiring to large industrial electrical installations. We adhere to global standards, ensuring safety, efficiency, and scalability.",
+      "Our engineers work closely with clients to design energy-efficient systems tailored to the unique needs of each project, incorporating innovations like smart grids, automation, and renewable integrations.",
+    ],
+    expertise: [
+      {
+        title: "Power Distribution",
+        desc: "Low and high voltage systems, switchgear, and power factor correction.",
+      },
+      {
+        title: "Lighting Design",
+        desc: "Indoor and outdoor lighting planning for functionality and aesthetics.",
+      },
+    ],
+    images: {
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      gallery: [
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+      ],
+    },
+    relatedServices: [
+      {
+        title: "Mechanical Engineering",
+        slug: "mechanical-engineering",
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
+      },
+      {
+        title: "Maintenance & Renovation",
+        slug: "maintenance-renovation",
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+      },
+    ],
+  },
+
+  "event-management": {
+    title: "Event Management",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+    subtitle:
+      "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
+    details: [
+      "Our Electrical Engineering services cover everything from small-scale building wiring to large industrial electrical installations. We adhere to global standards, ensuring safety, efficiency, and scalability.",
+      "Our engineers work closely with clients to design energy-efficient systems tailored to the unique needs of each project, incorporating innovations like smart grids, automation, and renewable integrations.",
+    ],
+    expertise: [
+      {
+        title: "Power Distribution",
+        desc: "Low and high voltage systems, switchgear, and power factor correction.",
+      },
+      {
+        title: "Lighting Design",
+        desc: "Indoor and outdoor lighting planning for functionality and aesthetics.",
+      },
+    ],
+    images: {
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      gallery: [
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+      ],
+    },
+    relatedServices: [
+      {
+        title: "Mechanical Engineering",
+        slug: "mechanical-engineering",
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
+      },
+      {
+        title: "Maintenance & Renovation",
+        slug: "maintenance-renovation",
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+      },
+    ],
+  },
+
+  "human-resource": {
+    title: "Human Resource Management",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+    subtitle:
+      "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
+    details: [
+      "Our Electrical Engineering services cover everything from small-scale building wiring to large industrial electrical installations. We adhere to global standards, ensuring safety, efficiency, and scalability.",
+      "Our engineers work closely with clients to design energy-efficient systems tailored to the unique needs of each project, incorporating innovations like smart grids, automation, and renewable integrations.",
+    ],
+    expertise: [
+      {
+        title: "Power Distribution",
+        desc: "Low and high voltage systems, switchgear, and power factor correction.",
+      },
+      {
+        title: "Lighting Design",
+        desc: "Indoor and outdoor lighting planning for functionality and aesthetics.",
+      },
+    ],
+    images: {
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      gallery: [
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+      ],
+    },
+    relatedServices: [
+      {
+        title: "Mechanical Engineering",
+        slug: "mechanical-engineering",
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
+      },
+      {
+        title: "Maintenance & Renovation",
+        slug: "maintenance-renovation",
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+      },
+    ],
+  },
+
+  "mall-management": {
+    title: "Mall Management",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+    subtitle:
+      "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
+    details: [
+      "Our Electrical Engineering services cover everything from small-scale building wiring to large industrial electrical installations. We adhere to global standards, ensuring safety, efficiency, and scalability.",
+      "Our engineers work closely with clients to design energy-efficient systems tailored to the unique needs of each project, incorporating innovations like smart grids, automation, and renewable integrations.",
+    ],
+    expertise: [
+      {
+        title: "Power Distribution",
+        desc: "Low and high voltage systems, switchgear, and power factor correction.",
+      },
+      {
+        title: "Lighting Design",
+        desc: "Indoor and outdoor lighting planning for functionality and aesthetics.",
+      },
+    ],
+    images: {
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      gallery: [
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+      ],
+    },
+    relatedServices: [
+      {
+        title: "Mechanical Engineering",
+        slug: "mechanical-engineering",
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
+      },
+      {
+        title: "Maintenance & Renovation",
+        slug: "maintenance-renovation",
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+      },
+    ],
+  },
+
+  "security-and-training": {
+    title: "Security & Training Services",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+    subtitle:
+      "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
+    details: [
+      "Our Electrical Engineering services cover everything from small-scale building wiring to large industrial electrical installations. We adhere to global standards, ensuring safety, efficiency, and scalability.",
+      "Our engineers work closely with clients to design energy-efficient systems tailored to the unique needs of each project, incorporating innovations like smart grids, automation, and renewable integrations.",
+    ],
+    expertise: [
+      {
+        title: "Power Distribution",
+        desc: "Low and high voltage systems, switchgear, and power factor correction.",
+      },
+      {
+        title: "Lighting Design",
+        desc: "Indoor and outdoor lighting planning for functionality and aesthetics.",
+      },
+    ],
+    images: {
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      gallery: [
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+      ],
+    },
+    relatedServices: [
+      {
+        title: "Mechanical Engineering",
+        slug: "mechanical-engineering",
+        icons: "precision_manufacturing",
+        link: "/services/mechanical-engineering",
+        description: "Mechanical system design, installation, and servicing.",
+      },
+      {
+        title: "Maintenance & Renovation",
+        slug: "maintenance-renovation",
+        icons: "construction",
+        link: "/services/maintenance-renovation",
+        description:
+          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+      },
+    ],
+  },
+
   // Add other services like "mechanical-engineering", "solar-energy", etc. here in similar structure
 };
 

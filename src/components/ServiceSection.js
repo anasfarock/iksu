@@ -5,6 +5,26 @@ import Link from "next/link";
 
 const services = [
   {
+    title: "Material Management & Logistics",
+    icon: "local_shipping",
+    description:
+      "Efficient procurement, inventory, and international logistics solutions.",
+    link: "/services/material-management-and-logistics",
+  },
+  {
+    title: "Janitorial & Fumigation Services",
+    icon: "cleaning_services",
+    description: "Professional cleaning and eco-safe fumigation services.",
+    link: "/services/janitorial-and-fumigation",
+  },
+  {
+    title: "Canteen & Cafeteria Services",
+    icon: "restaurant",
+    description:
+      "Hygienic and cost-effective meal services for staff and operations.",
+    link: "/services/canteen-and-cafeteria",
+  },
+  {
     title: "Civil Engineering",
     icon: "apartment",
     description:
@@ -12,11 +32,11 @@ const services = [
     link: "/services/civil-engineering",
   },
   {
-    title: "Building Renovation",
+    title: "Building and Renovation",
     icon: "construction",
     description:
       "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
-    link: "/services/building-renovation",
+    link: "/services/building-and-renovation",
   },
   {
     title: "Perimeter Security",
@@ -62,6 +82,26 @@ const services = [
     description:
       "End-to-end planning for corporate, cultural, and social gatherings.",
     link: "/services/event-management",
+  },
+  {
+    title: "Human Resource",
+    icon: "group",
+    description: "Talent acquisition, development, and workforce management.",
+    link: "/services/human-resource",
+  },
+  {
+    title: "Mall Management",
+    icon: "store_mall_directory",
+    description:
+      "Optimized operations and tenant coordination for retail spaces.",
+    link: "/services/mall-management",
+  },
+  {
+    title: "Security & Training",
+    icon: "security",
+    description:
+      "Robust security systems paired with certified training programs.",
+    link: "/services/security-and-training",
   },
 ];
 

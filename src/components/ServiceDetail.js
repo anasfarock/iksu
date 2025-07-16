@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 import Footer from "@/components/Footer";
 import ContactSection from "@/components/Contact";
 import ServicesHeader from "@/components/ServicesHeader";
@@ -19,23 +20,8 @@ const ServiceDetail = ({ data }) => {
 
   return (
     <div>
-      {/* Add Google Fonts and Material Icons */}
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet"
-        />
-      </Head>
-
       {/* Apply global styles inline */}
       <style jsx global>{`
-        @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-        @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-
         * {
           margin: 0;
           padding: 0;
@@ -445,16 +431,6 @@ const ServiceDetail = ({ data }) => {
           }
         }
       `}</style>
-      <Head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-        <link
-          href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet"
-        />
-      </Head>
 
       {/* Header */}
       <ServicesHeader />
@@ -535,15 +511,38 @@ const ServiceDetail = ({ data }) => {
 
             {/* Right Column: Images */}
             <div className="image-gallery">
-              <img className="main-image" src={images.main} alt={title} />
+              <div className="main-image">
+                <Image
+                  src={images.main}
+                  alt={title}
+                  width={600}
+                  height={300}
+                  style={{
+                    width: "100%",
+                    height: "300px",
+                    objectFit: "cover",
+                    borderRadius: "8px",
+                    transition: "transform 0.3s ease",
+                  }}
+                />
+              </div>
               <div className="image-grid">
                 {images.gallery.map((img, i) => (
-                  <img
-                    key={i}
-                    className="grid-image"
-                    src={img}
-                    alt={`Gallery ${i}`}
-                  />
+                  <div key={i} className="grid-image">
+                    <Image
+                      src={img}
+                      alt={`Gallery ${i + 1}`}
+                      width={300}
+                      height={200}
+                      style={{
+                        width: "100%",
+                        height: "200px",
+                        objectFit: "cover",
+                        borderRadius: "8px",
+                        transition: "transform 0.3s ease",
+                      }}
+                    />
+                  </div>
                 ))}
               </div>
             </div>

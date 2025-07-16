@@ -437,12 +437,12 @@ const servicesData = {
           "Robust security systems paired with certified training programs.",
       },
       {
-        title: "Mall Management",
-        slug: "mall-management",
-        icons: "store_mall_directory",
-        link: "/services/mall-management",
+        title: "Electrical Engineering",
+        slug: "electrical-engineering",
+        icons: "electrical_services",
+        link: "/services/electrical-engineering",
         description:
-          "Optimized operations and tenant coordination for retail spaces.",
+          "Design, installation, and maintenance of electrical systems.",
       },
     ],
   },

@@ -130,7 +130,7 @@ const ContactSection = () => {
               Our Location
             </h3>
             <p style={{ marginBottom: "16px", color: "#d1d5db" }}>
-              Street #4, G-11/3, Islamabad
+              G-13, Islamabad
             </p>
             <div
               style={{
@@ -141,7 +141,7 @@ const ContactSection = () => {
             >
               <iframe
                 title="IKSU Location"
-                src="https://maps.google.com/maps?q=G-11/3%20Islamabad&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13285.044140444243!2d72.95289321830992!3d33.650397585156654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df963bf021d1d9%3A0xb50067228215db48!2sG-13%2C%20Islamabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1752668604262!5m2!1sen!2s"
                 width="100%"
                 height="100%"
                 frameBorder="0"

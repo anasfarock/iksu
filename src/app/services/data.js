@@ -404,48 +404,48 @@ const servicesData = {
     ],
   },
 
-  "cyber-solutions": {
-    title: "Cyber Solutions",
-    imagehero: "/images/cyber/hero.jpg",
-    subtitle:
-      "Modern cybersecurity and IT services to protect digital infrastructure.",
-    details: [
-      "In an era of increasing digital threats, IKSU offers comprehensive Cyber Solutions to safeguard IT infrastructure and sensitive data. Our services include cybersecurity audits, firewalls, secure network design, data encryption, and continuous threat monitoring. We serve clients in sectors where data protection and uptime are business-critical, including defense, government, and large enterprises.",
-      "Our expert team implements robust security frameworks tailored to each client's risk profile. In addition to infrastructure security, we also offer cloud backup, disaster recovery planning, and staff training to minimize human error. Our proactive and layered approach ensures resilience against modern cyber threats.",
-    ],
-    expertise: [
-      {
-        title: "Network & Endpoint Security",
-        desc: "Firewalls, antivirus, and threat detection for system protection.",
-      },
-      {
-        title: "Data Management & Recovery",
-        desc: "Secure storage solutions and quick disaster recovery protocols.",
-      },
-    ],
-    images: {
-      main: "/images/cyber/main.jpg",
-      gallery: ["/images/cyber/gallery-1.jpg", "/images/cyber/gallery-2.jpg"],
-    },
-    relatedServices: [
-      {
-        title: "Security & Training",
-        slug: "security-and-training",
-        icons: "security",
-        link: "/services/security-and-training",
-        description:
-          "Robust security systems paired with certified training programs.",
-      },
-      {
-        title: "Electrical Engineering",
-        slug: "electrical-engineering",
-        icons: "electrical_services",
-        link: "/services/electrical-engineering",
-        description:
-          "Design, installation, and maintenance of electrical systems.",
-      },
-    ],
-  },
+  // "cyber-solutions": {
+  //   title: "Cyber Solutions",
+  //   imagehero: "/images/cyber/hero.jpg",
+  //   subtitle:
+  //     "Modern cybersecurity and IT services to protect digital infrastructure.",
+  //   details: [
+  //     "In an era of increasing digital threats, IKSU offers comprehensive Cyber Solutions to safeguard IT infrastructure and sensitive data. Our services include cybersecurity audits, firewalls, secure network design, data encryption, and continuous threat monitoring. We serve clients in sectors where data protection and uptime are business-critical, including defense, government, and large enterprises.",
+  //     "Our expert team implements robust security frameworks tailored to each client's risk profile. In addition to infrastructure security, we also offer cloud backup, disaster recovery planning, and staff training to minimize human error. Our proactive and layered approach ensures resilience against modern cyber threats.",
+  //   ],
+  //   expertise: [
+  //     {
+  //       title: "Network & Endpoint Security",
+  //       desc: "Firewalls, antivirus, and threat detection for system protection.",
+  //     },
+  //     {
+  //       title: "Data Management & Recovery",
+  //       desc: "Secure storage solutions and quick disaster recovery protocols.",
+  //     },
+  //   ],
+  //   images: {
+  //     main: "/images/cyber/main.jpg",
+  //     gallery: ["/images/cyber/gallery-1.jpg", "/images/cyber/gallery-2.jpg"],
+  //   },
+  //   relatedServices: [
+  //     {
+  //       title: "Security & Training",
+  //       slug: "security-and-training",
+  //       icons: "security",
+  //       link: "/services/security-and-training",
+  //       description:
+  //         "Robust security systems paired with certified training programs.",
+  //     },
+  //     {
+  //       title: "Electrical Engineering",
+  //       slug: "electrical-engineering",
+  //       icons: "electrical_services",
+  //       link: "/services/electrical-engineering",
+  //       description:
+  //         "Design, installation, and maintenance of electrical systems.",
+  //     },
+  //   ],
+  // },
 
   "import-export": {
     title: "Import and Export",
@@ -489,48 +489,48 @@ const servicesData = {
     ],
   },
 
-  "event-management": {
-    title: "Event Management",
-    imagehero: "/images/event/hero.jpg",
-    subtitle:
-      "Creative, turnkey planning for corporate and social event success.",
-    details: [
-      "Our Event Management services are crafted to deliver memorable and seamless experiences, whether for corporate functions, cultural programs, or social gatherings. IKSU handles everything from concept development and venue selection to logistics, staffing, and on-the-day coordination. Each event is executed with creativity, punctuality, and attention to detail.",
-      "We specialize in designing events that align with client goals, be it branding, employee engagement, or public outreach. Our team works closely with vendors and service providers to ensure smooth execution while keeping costs in check. From grand openings to internal celebrations, we turn every event into a successful milestone.",
-    ],
-    expertise: [
-      {
-        title: "Turnkey Event Planning",
-        desc: "End-to-end management from ideation to execution.",
-      },
-      {
-        title: "Vendor & Logistics Coordination",
-        desc: "Seamless integration of services and on-site management.",
-      },
-    ],
-    images: {
-      main: "/images/event/main.webp",
-      gallery: ["/images/event/gallery-1.jpg", "/images/event/gallery-2.jpg"],
-    },
-    relatedServices: [
-      {
-        title: "Canteen & Cafeteria Services",
-        slug: "canteen-and-cafeteria",
-        icons: "restaurant",
-        link: "/services/canteen-and-cafeteria",
-        description:
-          "Hygienic and cost-effective meal services for staff and operations.",
-      },
-      {
-        title: "Security & Training",
-        slug: "security-and-training",
-        icons: "security",
-        link: "/services/security-and-training",
-        description:
-          "Robust security systems paired with certified training programs.",
-      },
-    ],
-  },
+  // "event-management": {
+  //   title: "Event Management",
+  //   imagehero: "/images/event/hero.jpg",
+  //   subtitle:
+  //     "Creative, turnkey planning for corporate and social event success.",
+  //   details: [
+  //     "Our Event Management services are crafted to deliver memorable and seamless experiences, whether for corporate functions, cultural programs, or social gatherings. IKSU handles everything from concept development and venue selection to logistics, staffing, and on-the-day coordination. Each event is executed with creativity, punctuality, and attention to detail.",
+  //     "We specialize in designing events that align with client goals, be it branding, employee engagement, or public outreach. Our team works closely with vendors and service providers to ensure smooth execution while keeping costs in check. From grand openings to internal celebrations, we turn every event into a successful milestone.",
+  //   ],
+  //   expertise: [
+  //     {
+  //       title: "Turnkey Event Planning",
+  //       desc: "End-to-end management from ideation to execution.",
+  //     },
+  //     {
+  //       title: "Vendor & Logistics Coordination",
+  //       desc: "Seamless integration of services and on-site management.",
+  //     },
+  //   ],
+  //   images: {
+  //     main: "/images/event/main.webp",
+  //     gallery: ["/images/event/gallery-1.jpg", "/images/event/gallery-2.jpg"],
+  //   },
+  //   relatedServices: [
+  //     {
+  //       title: "Canteen & Cafeteria Services",
+  //       slug: "canteen-and-cafeteria",
+  //       icons: "restaurant",
+  //       link: "/services/canteen-and-cafeteria",
+  //       description:
+  //         "Hygienic and cost-effective meal services for staff and operations.",
+  //     },
+  //     {
+  //       title: "Security & Training",
+  //       slug: "security-and-training",
+  //       icons: "security",
+  //       link: "/services/security-and-training",
+  //       description:
+  //         "Robust security systems paired with certified training programs.",
+  //     },
+  //   ],
+  // },
 
   "human-resource": {
     title: "Human Resource Selection and Development",
@@ -574,46 +574,46 @@ const servicesData = {
     ],
   },
 
-  "mall-management": {
-    title: "Mall Management",
-    imagehero: "/images/mall/hero.webp",
-    subtitle:
-      "Efficient, tenant-focused management for thriving commercial centers.",
-    details: [
-      "IKSU's Mall Management service ensures that commercial centers operate smoothly and profitably. We oversee tenant onboarding, lease administration, facility maintenance, security, and customer engagement. Our team acts as a single point of contact for all stakeholders, ensuring a well-balanced tenant mix and consistent visitor experience.",
-      "We apply modern retail analytics and footfall strategies to enhance operational efficiency and shopper satisfaction. From handling day-to-day operations to planning seasonal promotions, IKSU helps mall owners maximize value while maintaining high service standards.",
-    ],
-    expertise: [
-      {
-        title: "Lease & Tenant Coordination",
-        desc: "Efficient space allocation and rent management.",
-      },
-      {
-        title: "Facility Management & Engagement",
-        desc: "Operational excellence and marketing activities for visitor growth.",
-      },
-    ],
-    images: {
-      main: "/images/mall/main.jpg",
-      gallery: ["/images/mall/gallery-1.jpg", "/images/mall/gallery-2.png"],
-    },
-    relatedServices: [
-      {
-        title: "Cyber Solutions",
-        slug: "cyber-solutions",
-        icons: "dns",
-        link: "/services/cyber-solutions",
-        description: "Cybersecurity, data management, and IT services.",
-      },
-      {
-        title: "Janitorial and Fumigation",
-        slug: "janitorial-and-fumigation",
-        icons: "cleaning_services",
-        link: "/services/janitorial-and-fumigation",
-        description: "Professional cleaning and eco-safe fumigation services.",
-      },
-    ],
-  },
+  // "mall-management": {
+  //   title: "Mall Management",
+  //   imagehero: "/images/mall/hero.webp",
+  //   subtitle:
+  //     "Efficient, tenant-focused management for thriving commercial centers.",
+  //   details: [
+  //     "IKSU's Mall Management service ensures that commercial centers operate smoothly and profitably. We oversee tenant onboarding, lease administration, facility maintenance, security, and customer engagement. Our team acts as a single point of contact for all stakeholders, ensuring a well-balanced tenant mix and consistent visitor experience.",
+  //     "We apply modern retail analytics and footfall strategies to enhance operational efficiency and shopper satisfaction. From handling day-to-day operations to planning seasonal promotions, IKSU helps mall owners maximize value while maintaining high service standards.",
+  //   ],
+  //   expertise: [
+  //     {
+  //       title: "Lease & Tenant Coordination",
+  //       desc: "Efficient space allocation and rent management.",
+  //     },
+  //     {
+  //       title: "Facility Management & Engagement",
+  //       desc: "Operational excellence and marketing activities for visitor growth.",
+  //     },
+  //   ],
+  //   images: {
+  //     main: "/images/mall/main.jpg",
+  //     gallery: ["/images/mall/gallery-1.jpg", "/images/mall/gallery-2.png"],
+  //   },
+  //   relatedServices: [
+  //     {
+  //       title: "Cyber Solutions",
+  //       slug: "cyber-solutions",
+  //       icons: "dns",
+  //       link: "/services/cyber-solutions",
+  //       description: "Cybersecurity, data management, and IT services.",
+  //     },
+  //     {
+  //       title: "Janitorial and Fumigation",
+  //       slug: "janitorial-and-fumigation",
+  //       icons: "cleaning_services",
+  //       link: "/services/janitorial-and-fumigation",
+  //       description: "Professional cleaning and eco-safe fumigation services.",
+  //     },
+  //   ],
+  // },
 
   "security-and-training": {
     title: "Security and Training Services",

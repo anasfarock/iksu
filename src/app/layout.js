@@ -8,7 +8,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "IKSU Consultant and Construction Company",
+  title: "IKSU Consulting Services (Pvt) Ltd.",
   description:
     "Your Ideas & Dreams Are Transformed By Us Into Long-Lasting, Engineered Buildings.",
 };

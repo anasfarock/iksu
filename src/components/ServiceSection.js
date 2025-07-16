@@ -1,4 +1,3 @@
-// components/ServiceSection.js
 "use client";
 
 import React from "react";
@@ -17,52 +16,52 @@ const services = [
     icon: "construction",
     description:
       "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
-    link: "/services/civil-engineering",
+    link: "/services/building-renovation",
   },
   {
     title: "Perimeter Security",
     icon: "security",
     description:
       "Supply and installation of HESCO bags, chain link fencing, razor wire, and much more.",
-    link: "/services/civil-engineering",
+    link: "/services/perimeter-security",
   },
   {
     title: "Electrical Engineering",
     icon: "electrical_services",
     description: "Design, installation, and maintenance of electrical systems.",
-    link: "/services/civil-engineering",
+    link: "/services/electrical-engineering",
   },
   {
     title: "Solar Energy",
     icon: "solar_power",
     description: "Solar panel installation and renewable energy solutions.",
-    link: "/services/civil-engineering",
+    link: "/services/solar-energy",
   },
   {
     title: "Mechanical Engineering",
     icon: "precision_manufacturing",
     description: "Mechanical system design, installation, and servicing.",
-    link: "/services/civil-engineering",
+    link: "/services/mechanical-engineering",
   },
   {
     title: "Cyber Solutions",
     icon: "dns",
     description: "Cybersecurity, data management, and IT services.",
-    link: "/services/civil-engineering",
+    link: "/services/cyber-solutions",
   },
   {
     title: "Import/Export",
     icon: "public",
     description:
       "Global trade support for construction materials and commercial goods.",
-    link: "/services/civil-engineering",
+    link: "/services/import-export",
   },
   {
     title: "Event Management",
     icon: "event",
     description:
       "End-to-end planning for corporate, cultural, and social gatherings.",
-    link: "/services/civil-engineering",
+    link: "/services/event-management",
   },
 ];
 

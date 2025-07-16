@@ -92,7 +92,7 @@ const servicesData = {
   },
 
   "material-management-and-logistics": {
-    title: "Material Management & Logistics",
+    title: "Material Management and Logistics",
     imagehero:
       "https://www.ewellix.com/sites/default/files/Material-handling-application.jpg",
     subtitle:
@@ -138,7 +138,7 @@ const servicesData = {
   },
 
   "janitorial-and-fumigation": {
-    title: "Janitorial & Fumigation Services",
+    title: "Janitorial and Fumigation Services",
     imagehero:
       "https://www.mbmpk.com/wp-content/uploads/2019/07/MBM-Janitorial-Services-Image-8.jpg",
     subtitle:
@@ -184,9 +184,9 @@ const servicesData = {
   },
 
   "canteen-and-cafeteria": {
-    title: "Canteen & Cafeteria Services",
+    title: "Canteen and Cafeteria Services",
     imagehero:
-      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
+      "https://www.brockwellcarrington.com/wp-content/uploads/2016/06/occ14.jpg",
     subtitle:
       "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
     details: [
@@ -204,10 +204,10 @@ const servicesData = {
       },
     ],
     images: {
-      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
+      main: "https://cdn.britannica.com/80/147280-050-B07C1E01/cafeteria-Bangalore-India.jpg",
       gallery: [
-        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
-        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
+        "https://qu.edu.pk/wp-content/uploads/2024/07/cafe-1-800x534-1.webp",
+        "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%2F2262e2e4-49a1-11ea-aee2-9ddbdc86190d?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
       ],
     },
     relatedServices: [
@@ -644,7 +644,7 @@ const servicesData = {
   },
 
   "security-and-training": {
-    title: "Security & Training Services",
+    title: "Security and Training Services",
     imagehero:
       "https://securityexcellence.net/cdn/shop/files/654b9175e05c2c7376c8f35f_Top_Security_Guard_Interview_Questions_and_Answers.jpg?v=1708697145&width=1200",
     subtitle:

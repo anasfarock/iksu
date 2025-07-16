@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Link from "next/link";
 
 const HomeHeader = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,26 +35,25 @@ const HomeHeader = () => {
 
           {/* Desktop Navigation */}
           <nav className="nav-desktop">
-            <a className="nav-link" href="#home">
+            <Link className="nav-link" href="#home">
               Home
-            </a>
-            <a className="nav-link" href="#about">
+            </Link>
+            <Link className="nav-link" href="#about">
               About Us
-            </a>
-            <a className="nav-link" href="#services">
+            </Link>
+            <Link className="nav-link" href="#services">
               Services
-            </a>
-            {/* <a className="nav-link" href="#projects">Projects</a> */}
-            <a className="nav-link" href="#contact">
+            </Link>
+            <Link className="nav-link" href="#contact">
               Contact
-            </a>
+            </Link>
           </nav>
 
           {/* CTA + Mobile Icon */}
           <div className="header-right">
-            <a className="btn-primary nav-desktop" href="#contact">
+            <Link className="btn-primary nav-desktop" href="#contact">
               Get a Quote
-            </a>
+            </Link>
             <button
               className="mobile-menu-icon"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -87,28 +87,27 @@ const HomeHeader = () => {
             gap: "16px",
           }}
         >
-          <a
+          <Link
             className="nav-link"
             href="#about"
             onClick={() => setIsMenuOpen(false)}
           >
             About Us
-          </a>
-          <a
+          </Link>
+          <Link
             className="nav-link"
             href="#services"
             onClick={() => setIsMenuOpen(false)}
           >
             Services
-          </a>
-          {/* <a className="nav-link" href="#projects" onClick={() => setIsMenuOpen(false)}>Projects</a> */}
-          <a
+          </Link>
+          <Link
             className="nav-link"
             href="#contact"
             onClick={() => setIsMenuOpen(false)}
           >
             Contact
-          </a>
+          </Link>
         </div>
       )}
     </>

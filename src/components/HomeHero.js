@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 
 const HomeHero = () => {
   return (
@@ -54,12 +55,12 @@ const HomeHero = () => {
           }}
         >
           <div className="hero-buttons">
-            <a className="btn-primary" href="#contact">
+            <Link className="btn-primary" href="#contact">
               Contact Us
-            </a>
-            <a className="btn-secondary" href="#services">
+            </Link>
+            <Link className="btn-secondary" href="#services">
               Our Services
-            </a>
+            </Link>
           </div>
         </div>
         <p style={{ color: "#d1d5db", fontSize: "16px" }}>

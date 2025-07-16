@@ -469,17 +469,17 @@ const ServiceDetail = ({ data }) => {
         <div className="container">
           <nav className="breadcrumb">
             <div className="breadcrumb-item">
-              <a className="breadcrumb-link" href="/#home">
+              <Link className="breadcrumb-link" href="/#home">
                 Home
-              </a>
+              </Link>
               <span className="material-icons breadcrumb-separator">
                 chevron_right
               </span>
             </div>
             <div className="breadcrumb-item">
-              <a className="breadcrumb-link" href="/#services">
+              <Link className="breadcrumb-link" href="/#services">
                 Services
-              </a>
+              </Link>
               <span className="material-icons breadcrumb-separator">
                 chevron_right
               </span>

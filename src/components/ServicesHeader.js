@@ -47,9 +47,9 @@ const ServicesHeader = () => {
           </nav>
 
           <div className="header-right">
-            <a className="btn-primary nav-desktop" href="#contact">
+            <Link className="btn-primary nav-desktop" href="#contact">
               Get a Quote
-            </a>
+            </Link>
             <button
               className="mobile-menu-icon"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -82,27 +82,27 @@ const ServicesHeader = () => {
             gap: "16px",
           }}
         >
-          <a
+          <Link
             className="nav-link"
             href="/#about"
             onClick={() => setMobileMenuOpen(false)}
           >
             About Us
-          </a>
-          <a
+          </Link>
+          <Link
             className="nav-link"
             href="/#services"
             onClick={() => setMobileMenuOpen(false)}
           >
             Services
-          </a>
-          <a
+          </Link>
+          <Link
             className="nav-link"
             href="#contact"
             onClick={() => setMobileMenuOpen(false)}
           >
             Contact
-          </a>
+          </Link>
         </div>
       )}
     </>

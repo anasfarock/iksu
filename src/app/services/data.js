@@ -20,10 +20,10 @@ const servicesData = {
       },
     ],
     images: {
-      main: "https://lh3.googleusercontent.com/aida-public/AB6AXuCqbj0PAYPF8COGYqw_9_N3zlfUhY3AHFWaKZtJcUqTqykU3iRXTte0sxIjakgdiWAd7fq0Ses4iKCXclOrSdn1oBVq6GptmU_tMnEzv96osTKTbNpydbwatjg_lEUx2ycXG_Z5dACGDMxNryRyk8Toc6cnzBe85y7poV74Yl_Jlxs8__Nd_S4Cpkb_rTLe8Pvm_3TreYummUKnNKR0BpR-KwYYumRyGYNAbmTl81zwis3UdMYt_aOIe-LV6p99hmt34Djfo1oVCpQ",
+      main: "https://www.stonewallco.com/hubfs/Construction%20civil%20engineer%20technician%20and%20architect%20working.png",
       gallery: [
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCqbj0PAYPF8COGYqw_9_N3zlfUhY3AHFWaKZtJcUqTqykU3iRXTte0sxIjakgdiWAd7fq0Ses4iKCXclOrSdn1oBVq6GptmU_tMnEzv96osTKTbNpydbwatjg_lEUx2ycXG_Z5dACGDMxNryRyk8Toc6cnzBe85y7poV74Yl_Jlxs8__Nd_S4Cpkb_rTLe8Pvm_3TreYummUKnNKR0BpR-KwYYumRyGYNAbmTl81zwis3UdMYt_aOIe-LV6p99hmt34Djfo1oVCpQ",
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCqbj0PAYPF8COGYqw_9_N3zlfUhY3AHFWaKZtJcUqTqykU3iRXTte0sxIjakgdiWAd7fq0Ses4iKCXclOrSdn1oBVq6GptmU_tMnEzv96osTKTbNpydbwatjg_lEUx2ycXG_Z5dACGDMxNryRyk8Toc6cnzBe85y7poV74Yl_Jlxs8__Nd_S4Cpkb_rTLe8Pvm_3TreYummUKnNKR0BpR-KwYYumRyGYNAbmTl81zwis3UdMYt_aOIe-LV6p99hmt34Djfo1oVCpQ",
+        "https://cdn.shopify.com/s/files/1/0306/6419/6141/files/Untitled_6_x_4_in_5_1024x1024.png?v=1715718313",
+        "https://cdn.mos.cms.futurecdn.net/q4sTR3JXhPyKRGJbEFjq8c.jpg",
       ],
     },
     relatedServices: [
@@ -47,6 +47,8 @@ const servicesData = {
 
   "electrical-engineering": {
     title: "Electrical Engineering",
+    imagehero:
+      "https://www.chitkara.edu.in/blogs/wp-content/uploads/2023/10/The-Future-of-Electrical-Engineering.jpg",
     subtitle:
       "Design, installation, and maintenance of high-performance electrical systems for modern infrastructure.",
     details: [
@@ -64,10 +66,10 @@ const servicesData = {
       },
     ],
     images: {
-      main: "https://example.com/electrical-main.jpg",
+      main: "https://i0.wp.com/www.oxbridgeacademy.edu.za/blog/wp-content/uploads/2023/03/pexels-gunshe-ramchandani-5615117.jpg?resize=1200%2C640&ssl=1",
       gallery: [
-        "https://example.com/electrical-1.jpg",
-        "https://example.com/electrical-2.jpg",
+        "https://www.sydney.edu.au/content/dam/corporate/images/faculty-of-engineering-and-information-technologies/news-and-events/2022/2022-why-study-electrical-engineering-hero.jpg",
+        "https://maker.pro/storage/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS/VtxAkWbGmVasPYFgVJaLsrqfi5WHAfteHyIHrBHS.jpg",
       ],
     },
     relatedServices: [

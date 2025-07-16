@@ -151,7 +151,7 @@ const ContactSection = () => {
                   email
                 </span>
                 <a
-                  href="mailto:khattakhammad26@gmail.com"
+                  href="mailto:iksuconsultingservices@gmail.com"
                   style={{
                     color: "#f59e0b",
                     textDecoration: "none",
@@ -161,7 +161,7 @@ const ContactSection = () => {
                     flexWrap: "wrap",
                   }}
                 >
-                  khattakhammad26@gmail.com
+                  iksuconsultingservices@gmail.com
                 </a>
               </p>
             </div>

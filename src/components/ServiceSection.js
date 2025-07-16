@@ -118,6 +118,7 @@ const ServiceSection = () => {
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
             gap: "32px",
+            marginBottom: "48px",
           }}
         >
           {services.map((service, index) => (

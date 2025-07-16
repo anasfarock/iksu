@@ -52,6 +52,7 @@ const ContactSection = () => {
             gap: "32px",
             flexWrap: "wrap",
             marginTop: "48px",
+            marginBottom: "36px",
           }}
         >
           {/* Contact Us Box */}

@@ -36,6 +36,7 @@ const AboutSection = () => {
             fontSize: "18px",
             lineHeight: "1.6",
             color: "#d1d5db",
+            marginBottom: "36px",
           }}
         >
           IKSU Consultant and Construction Company is a full-service firm

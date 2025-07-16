@@ -66,7 +66,7 @@ const ContactSection = () => {
               width: "450px",
             }}
           >
-            <h3
+            <h2
               style={{
                 fontSize: "32px",
                 fontWeight: "600",
@@ -74,39 +74,97 @@ const ContactSection = () => {
               }}
             >
               Contact Us
-            </h3>
-            <p
-              style={{
-                color: "#f59e0b",
-                fontSize: "24px",
-                fontWeight: "500",
-                margin: "8px 0",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <span className="material-icons" style={{ marginRight: "8px" }}>
-                phone
-              </span>
-              0301-0444544
-            </p>
-            <p
-              style={{
-                color: "#f59e0b",
-                fontSize: "24px",
-                fontWeight: "500",
-                margin: "8px 0",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center",
-              }}
-            >
-              <span className="material-icons" style={{ marginRight: "8px" }}>
-                phone
-              </span>
-              0333-8213196
-            </p>
+            </h2>
+            <div style={{ textAlign: "center", padding: "0 16px" }}>
+              <p
+                style={{
+                  color: "#f59e0b",
+                  fontSize: "24px",
+                  fontWeight: "500",
+                  margin: "8px 0",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  flexWrap: "wrap", // allow wrapping on smaller screens
+                }}
+              >
+                <span className="material-icons" style={{ marginRight: "8px" }}>
+                  phone
+                </span>
+                <a
+                  href="tel:03305758294"
+                  style={{
+                    color: "#f59e0b",
+                    textDecoration: "none",
+                    wordBreak: "break-word",
+                    maxWidth: "100%",
+                  }}
+                >
+                  0330-5758294
+                </a>
+              </p>
+
+              <p
+                style={{
+                  color: "#f59e0b",
+                  fontSize: "24px",
+                  fontWeight: "500",
+                  margin: "8px 0",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  flexWrap: "wrap",
+                }}
+              >
+                <span className="material-icons" style={{ marginRight: "8px" }}>
+                  phone
+                </span>
+                <a
+                  href="tel:03338213196"
+                  style={{
+                    color: "#f59e0b",
+                    textDecoration: "none",
+                    wordBreak: "break-word",
+                    maxWidth: "100%",
+                  }}
+                >
+                  0333-8213196
+                </a>
+              </p>
+
+              <p
+                style={{
+                  color: "#f59e0b",
+                  fontSize: "24px",
+                  fontWeight: "500",
+                  margin: "8px 0",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  alignItems: "flex-start",
+                }}
+              >
+                <span
+                  className="material-icons"
+                  style={{ marginRight: "3px", paddingTop: "5px" }}
+                >
+                  email
+                </span>
+                <a
+                  href="mailto:khattakhammad26@gmail.com"
+                  style={{
+                    color: "#f59e0b",
+                    textDecoration: "none",
+                    wordBreak: "break-word",
+                    overflowWrap: "break-word",
+                    maxWidth: "100%",
+                    flexWrap: "wrap",
+                  }}
+                >
+                  khattakhammad26@gmail.com
+                </a>
+              </p>
+            </div>
           </div>
 
           {/* Location Box */}
@@ -120,7 +178,7 @@ const ContactSection = () => {
               width: "450px",
             }}
           >
-            <h3
+            <h2
               style={{
                 fontSize: "32px",
                 fontWeight: "600",
@@ -128,9 +186,10 @@ const ContactSection = () => {
               }}
             >
               Our Location
-            </h3>
+            </h2>
             <p style={{ marginBottom: "16px", color: "#d1d5db" }}>
-              G-13, Islamabad
+              IKSU - Nucleus Marketing, 3rd Floor Savemart Building, G-11
+              Markaz, Islamabad
             </p>
             <div
               style={{
@@ -141,7 +200,7 @@ const ContactSection = () => {
             >
               <iframe
                 title="IKSU Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13285.044140444243!2d72.95289321830992!3d33.650397585156654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df963bf021d1d9%3A0xb50067228215db48!2sG-13%2C%20Islamabad%2C%20Pakistan!5e0!3m2!1sen!2s!4v1752668604262!5m2!1sen!2s"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d987.2089169497149!2d72.99930045252904!3d33.668515535869595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df95f086121fb5%3A0x93f77d925850ca77!2sSave%20Mart%20G-11%20Markaz!5e0!3m2!1sen!2s!4v1752674786661!5m2!1sen!2s"
                 width="100%"
                 height="100%"
                 frameBorder="0"

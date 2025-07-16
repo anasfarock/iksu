@@ -28,19 +28,20 @@ const servicesData = {
     },
     relatedServices: [
       {
+        title: "Perimeter Security",
+        slug: "perimeter-security",
+        icons: "security",
+        link: "/services/perimeter-security",
+        description:
+          "Supply and installation of HESCO bags, chain link fencing, razor wire, and much more.",
+      },
+      {
         title: "Electrical Engineering",
         slug: "electrical-engineering",
         icons: "electrical_services",
         link: "/services/electrical-engineering",
         description:
           "Design, installation, and maintenance of electrical systems.",
-      },
-      {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
-        description: "Mechanical system design, installation, and servicing.",
       },
     ],
   },
@@ -74,19 +75,19 @@ const servicesData = {
     },
     relatedServices: [
       {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
+        title: "Solar Energy",
+        slug: "solar-energy",
+        icons: "solar_power",
+        link: "/services/solar-energy",
         description: "Mechanical system design, installation, and servicing.",
       },
       {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
+        title: "Electrical Engineering",
+        slug: "electrical_services",
         icons: "construction",
-        link: "/services/maintenance-renovation",
+        link: "/services/electrical-engineering",
         description:
-          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+          "Design, installation, and maintenance of electrical systems.",
       },
     ],
   },
@@ -120,19 +121,20 @@ const servicesData = {
     },
     relatedServices: [
       {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
-        description: "Mechanical system design, installation, and servicing.",
+        title: "Import/Export",
+        slug: "import-export",
+        icons: "public",
+        link: "/services/import-export",
+        description:
+          "Global trade support for construction materials and commercial goods.",
       },
       {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
-        icons: "construction",
-        link: "/services/maintenance-renovation",
+        title: "Civil Engineering",
+        slug: "civil-engineering",
+        icons: "apartment",
+        link: "/services/civil-engineering",
         description:
-          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+          "General construction, infrastructure development, and project management.",
       },
     ],
   },
@@ -166,17 +168,18 @@ const servicesData = {
     },
     relatedServices: [
       {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
-        description: "Mechanical system design, installation, and servicing.",
+        title: "Canteen & Cafeteria Services",
+        slug: "canteen-and-cafeteria",
+        icons: "restaurant",
+        link: "/services/canteen-and-cafeteria",
+        description:
+          "Hygienic and cost-effective meal services for staff and operations.",
       },
       {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
+        title: "Building and Renovation",
+        slug: "building-and-renovation",
         icons: "construction",
-        link: "/services/maintenance-renovation",
+        link: "/services/building-and-renovation",
         description:
           "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
       },
@@ -212,19 +215,19 @@ const servicesData = {
     },
     relatedServices: [
       {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
-        description: "Mechanical system design, installation, and servicing.",
+        title: "Janitorial and Fumigation Services",
+        slug: "janitorial-and-fumigation",
+        icons: "cleaning_services",
+        link: "/services/janitorial-and-fumigation",
+        description: "Professional cleaning and eco-safe fumigation services.",
       },
       {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
-        icons: "construction",
-        link: "/services/maintenance-renovation",
+        title: "Human Resource",
+        slug: "human-resource",
+        icons: "group",
+        link: "/services/human-resource",
         description:
-          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+          "Talent acquisition, development, and workforce management.",
       },
     ],
   },
@@ -258,19 +261,19 @@ const servicesData = {
     },
     relatedServices: [
       {
+        title: "Civil Engineering",
+        slug: "civil-engineering",
+        icons: "apartment",
+        link: "/services/civil-engineering",
+        description:
+          "General construction, infrastructure development, and project management.",
+      },
+      {
         title: "Mechanical Engineering",
         slug: "mechanical-engineering",
         icons: "precision_manufacturing",
         link: "/services/mechanical-engineering",
         description: "Mechanical system design, installation, and servicing.",
-      },
-      {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
-        icons: "construction",
-        link: "/services/maintenance-renovation",
-        description:
-          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
       },
     ],
   },
@@ -304,19 +307,20 @@ const servicesData = {
     },
     relatedServices: [
       {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
-        description: "Mechanical system design, installation, and servicing.",
+        title: "Security & Training",
+        slug: "security-security-training",
+        icons: "security",
+        link: "/services/security-and-training",
+        description:
+          "Robust security systems paired with certified training programs.",
       },
       {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
-        icons: "construction",
-        link: "/services/maintenance-renovation",
+        title: "Civil Engineering",
+        slug: "civil-engineering",
+        icons: "apartment",
+        link: "/services/civil-engineering",
         description:
-          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+          "General construction, infrastructure development, and project management.",
       },
     ],
   },
@@ -350,19 +354,20 @@ const servicesData = {
     },
     relatedServices: [
       {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
-        description: "Mechanical system design, installation, and servicing.",
+        title: "Electrical Engineering",
+        slug: "electrical-engineering",
+        icons: "electrical_services",
+        link: "/services/electrical-engineering",
+        description:
+          "Design, installation, and maintenance of electrical systems.",
       },
       {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
-        icons: "construction",
-        link: "/services/maintenance-renovation",
+        title: "Import/Export",
+        slug: "import-export",
+        icons: "public",
+        link: "/services/import-export",
         description:
-          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+          "Global trade support for construction materials and commercial goods.",
       },
     ],
   },
@@ -396,17 +401,18 @@ const servicesData = {
     },
     relatedServices: [
       {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
-        description: "Mechanical system design, installation, and servicing.",
+        title: "Electrical Engineering",
+        slug: "electrical-engineering",
+        icons: "electrical_services",
+        link: "/services/electrical-engineering",
+        description:
+          "Design, installation, and maintenance of electrical systems.",
       },
       {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
+        title: "Building & Renovation",
+        slug: "building-and-renovation",
         icons: "construction",
-        link: "/services/maintenance-renovation",
+        link: "/services/building-and-renovation",
         description:
           "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
       },
@@ -442,19 +448,20 @@ const servicesData = {
     },
     relatedServices: [
       {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
-        description: "Mechanical system design, installation, and servicing.",
+        title: "Security & Training",
+        slug: "security-and-training",
+        icons: "security",
+        link: "/services/security-and-training",
+        description:
+          "Robust security systems paired with certified training programs.",
       },
       {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
-        icons: "construction",
-        link: "/services/maintenance-renovation",
+        title: "Mall Management",
+        slug: "mall-management",
+        icons: "store_mall_directory",
+        link: "/services/mall-management",
         description:
-          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+          "Optimized operations and tenant coordination for retail spaces.",
       },
     ],
   },
@@ -488,19 +495,19 @@ const servicesData = {
     },
     relatedServices: [
       {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
-        description: "Mechanical system design, installation, and servicing.",
+        title: "Material Management & Logistics",
+        slug: "material-management-and-logistics",
+        icons: "local_shipping",
+        link: "/services/material-management-and-logistics",
+        description:
+          "Efficient procurement, inventory, and international logistics solutions.",
       },
       {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
-        icons: "construction",
-        link: "/services/maintenance-renovation",
-        description:
-          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+        title: "Solar Energy",
+        slug: "solar-energy",
+        icons: "solar_power",
+        link: "/services/solar-energy",
+        description: "Solar panel installation and renewable energy solutions.",
       },
     ],
   },
@@ -534,19 +541,20 @@ const servicesData = {
     },
     relatedServices: [
       {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
-        description: "Mechanical system design, installation, and servicing.",
+        title: "Canteen & Cafeteria Services",
+        slug: "canteen-and-cafeteria",
+        icons: "restaurant",
+        link: "/services/canteen-and-cafeteria",
+        description:
+          "Hygienic and cost-effective meal services for staff and operations.",
       },
       {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
-        icons: "construction",
-        link: "/services/maintenance-renovation",
+        title: "Security & Training",
+        slug: "security-and-training",
+        icons: "security",
+        link: "/services/security-and-training",
         description:
-          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+          "Robust security systems paired with certified training programs.",
       },
     ],
   },
@@ -580,19 +588,19 @@ const servicesData = {
     },
     relatedServices: [
       {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
+        title: "Canteen & Cafeteria Services",
+        slug: "canteen-and-cafeteria",
+        icons: "restaurant",
+        link: "/services/canteen-and-cafeteria",
         description: "Mechanical system design, installation, and servicing.",
       },
       {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
-        icons: "construction",
-        link: "/services/maintenance-renovation",
+        title: "Security & Training",
+        slug: "security-and-training",
+        icons: "security",
+        link: "/services/security-and-training",
         description:
-          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+          "Robust security systems paired with certified training programs.",
       },
     ],
   },
@@ -626,19 +634,18 @@ const servicesData = {
     },
     relatedServices: [
       {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
-        description: "Mechanical system design, installation, and servicing.",
+        title: "Cyber Solutions",
+        slug: "cyber-solutions",
+        icons: "dns",
+        link: "/services/cyber-solutions",
+        description: "Cybersecurity, data management, and IT services.",
       },
       {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
-        icons: "construction",
-        link: "/services/maintenance-renovation",
-        description:
-          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+        title: "Janitorial and Fumigation",
+        slug: "janitorial-and-fumigation",
+        icons: "cleaning_services",
+        link: "/services/janitorial-and-fumigation",
+        description: "Professional cleaning and eco-safe fumigation services.",
       },
     ],
   },
@@ -672,19 +679,20 @@ const servicesData = {
     },
     relatedServices: [
       {
-        title: "Mechanical Engineering",
-        slug: "mechanical-engineering",
-        icons: "precision_manufacturing",
-        link: "/services/mechanical-engineering",
-        description: "Mechanical system design, installation, and servicing.",
+        title: "Perimeter Security",
+        slug: "perimeter-security",
+        icons: "security",
+        link: "/services/perimeter-security",
+        description:
+          "Supply and installation of HESCO bags, chain link fencing, razor wire, and much more.",
       },
       {
-        title: "Maintenance & Renovation",
-        slug: "maintenance-renovation",
-        icons: "construction",
-        link: "/services/maintenance-renovation",
+        title: "Human Resource",
+        slug: "human-resource",
+        icons: "group",
+        link: "/services/human-resource",
         description:
-          "Civil, electrical, and plumbing maintenance, paintwork, repair, and complete renovations.",
+          "Talent acquisition, development, and workforce management.",
       },
     ],
   },

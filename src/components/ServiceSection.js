@@ -40,7 +40,7 @@ const services = [
   {
     title: "Solar Energy",
     icon: "solar_power",
-    description: "Solar panel installation, renewable energy solutions, and much more.",
+    description: "Solar panel installation, renewable energy solutions, and othere solar related services.",
     link: "/services/solar-energy",
   },
   // {

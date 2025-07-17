@@ -242,19 +242,51 @@ const IKSUWebsite = () => {
         `}</style>
 
         {/* Header */}
-        <HomeHeader />
+        {/* <HomeHeader /> */}
         <main>
+          <div
+            style={{
+              minHeight: "100vh",
+              backgroundColor: "#0f172a", // dark slate background
+              color: "white",
+              display: "flex",
+              flexDirection: "column",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "2rem",
+              textAlign: "center",
+              fontFamily: "'Poppins', sans-serif",
+            }}
+          >
+            <h1 style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>
+              🚧 Site Temporarily Down
+            </h1>
+            <p
+              style={{
+                fontSize: "1.25rem",
+                maxWidth: "600px",
+                marginBottom: "1.5rem",
+              }}
+            >
+              We’re currently performing some scheduled maintenance. We’ll be
+              back shortly. Thank you for your patience.
+            </p>
+            <p style={{ fontSize: "1rem", opacity: 0.7 }}>
+              — IKSU Consultant and Construction Company
+            </p>
+          </div>
+
           {/* Hero Section */}
-          <HomeHero />
+          {/* <HomeHero /> */}
 
           {/* About Section */}
-          <AboutSection />
+          {/* <AboutSection /> */}
 
           {/* Services Section */}
-          <ServiceSection />
+          {/* <ServiceSection /> */}
 
           {/* Contact Section */}
-          <ContactSection />
+          {/* <ContactSection /> */}
         </main>
 
         {/* Footer */}

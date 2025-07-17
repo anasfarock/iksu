@@ -5,31 +5,23 @@ import Link from "next/link";
 
 const services = [
   {
-    title: "Material Management & Logistics",
-    icon: "local_shipping",
-    description:
-      "Efficient procurement, inventory, and international logistics solutions.",
-    link: "/services/material-management-and-logistics",
-  },
-  {
-    title: "Janitorial & Fumigation Services",
-    icon: "cleaning_services",
-    description: "Professional cleaning and eco-safe fumigation services.",
-    link: "/services/janitorial-and-fumigation",
-  },
-  {
-    title: "Canteen & Cafeteria Services",
-    icon: "restaurant",
-    description:
-      "Hygienic and cost-effective meal services for staff and operations.",
-    link: "/services/canteen-and-cafeteria",
-  },
-  {
     title: "Civil Engineering",
     icon: "apartment",
     description:
-      "General construction, infrastructure development, and project management.",
+      "General construction, infrastructure development, and management.",
     link: "/services/civil-engineering",
+  },
+  {
+    title: "Electrical Engineering",
+    icon: "electrical_services",
+    description: "Design, installation, and maintenance of electrical systems.",
+    link: "/services/electrical-engineering",
+  },
+  {
+    title: "Mechanical Engineering",
+    icon: "precision_manufacturing",
+    description: "Mechanical system design, installation, and servicing.",
+    link: "/services/mechanical-engineering",
   },
   {
     title: "Building and Renovation",
@@ -46,22 +38,10 @@ const services = [
     link: "/services/perimeter-security",
   },
   {
-    title: "Electrical Engineering",
-    icon: "electrical_services",
-    description: "Design, installation, and maintenance of electrical systems.",
-    link: "/services/electrical-engineering",
-  },
-  {
     title: "Solar Energy",
     icon: "solar_power",
-    description: "Solar panel installation and renewable energy solutions.",
+    description: "Solar panel installation, renewable energy solutions, and much more.",
     link: "/services/solar-energy",
-  },
-  {
-    title: "Mechanical Engineering",
-    icon: "precision_manufacturing",
-    description: "Mechanical system design, installation, and servicing.",
-    link: "/services/mechanical-engineering",
   },
   // {
   //   title: "Cyber Solutions",
@@ -102,6 +82,26 @@ const services = [
     description:
       "Robust security systems paired with certified training programs.",
     link: "/services/security-and-training",
+  },
+  {
+    title: "Material Management & Logistics",
+    icon: "local_shipping",
+    description:
+      "Efficient procurement, inventory, and international logistics solutions.",
+    link: "/services/material-management-and-logistics",
+  },
+  {
+    title: "Janitorial & Fumigation Services",
+    icon: "cleaning_services",
+    description: "Professional cleaning and eco-safe fumigation services.",
+    link: "/services/janitorial-and-fumigation",
+  },
+  {
+    title: "Canteen & Cafeteria Services",
+    icon: "restaurant",
+    description:
+      "Hygienic and cost-effective meal services for staff and operations.",
+    link: "/services/canteen-and-cafeteria",
   },
 ];
 

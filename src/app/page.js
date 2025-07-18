@@ -272,7 +272,7 @@ const IKSUWebsite = () => {
               back shortly. Thank you for your patience.
             </p>
             <p style={{ fontSize: "1rem", opacity: 0.7 }}>
-              — IKSU Consultant and Construction Company
+              IKSU Consulting Services (Pvt) Ltd.
             </p>
           </div>
 
@@ -290,7 +290,7 @@ const IKSUWebsite = () => {
         </main>
 
         {/* Footer */}
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </>
   );
